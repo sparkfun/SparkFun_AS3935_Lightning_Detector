@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -83,10 +83,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -155,6 +155,9 @@
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="19.177" y="-19.177" size="1.778" layer="51" font="vector">Elias Santistevan</text>
 <text x="24.765" y="0.5842" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
+<dimension x1="25.4" y1="25.4" x2="0" y2="25.4" x3="12.7" y3="28.194" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="25.4" y1="0" x2="25.4" y2="25.4" x3="30.226" y3="12.7" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<text x="4.318" y="-4.572" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -5468,11 +5471,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="2.032" y="25.019" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="2.032" y="21.717" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="JP5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" value="LED" x="2.286" y="19.812" smashed="yes" rot="MR180">
-<attribute name="NAME" x="2.286" y="18.669" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
-<attribute name="VALUE" x="2.286" y="20.955" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
+<element name="JP5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" value="LED" x="2.286" y="18.796" smashed="yes" rot="MR180">
+<attribute name="NAME" x="2.286" y="17.653" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
+<attribute name="VALUE" x="2.286" y="19.939" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="U$1" library="LED" package="LED0" value="" x="4.003040625" y="17.973040625" smashed="yes" rot="MR0"/>
+<element name="U$1" library="LED" package="LED0" value="" x="4.003040625" y="16.957040625" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -5747,7 +5750,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U1" pad="3"/>
 <wire x1="16.4324" y1="13.0316" x2="14.6186" y2="13.0316" width="0.254" layer="1"/>
 </signal>
-<signal name="IRQ">
+<signal name="INT">
 <contactref element="J4" pad="7"/>
 <contactref element="J3" pad="5"/>
 <via x="9.525" y="13.081" extent="1-16" drill="0.3048"/>
@@ -5769,7 +5772,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="14.097" y1="14.986" x2="15.748" y2="14.986" width="0.2032" layer="16"/>
 <wire x1="15.748" y1="14.986" x2="16.383" y2="15.621" width="0.2032" layer="16"/>
 <contactref element="U1" pad="10"/>
-<wire x1="10.7422" y1="13.081" x2="10.7916" y2="13.0316" width="0.2032" layer="1"/>
 <wire x1="9.525" y1="13.081" x2="9.5744" y2="13.0316" width="0.2032" layer="1"/>
 <wire x1="9.5744" y1="13.0316" x2="10.7916" y2="13.0316" width="0.2032" layer="1"/>
 </signal>
@@ -5797,20 +5799,22 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$1">
 <contactref element="R3" pad="1"/>
 <contactref element="JP5" pad="2"/>
-<wire x1="1.563" y1="17.145" x2="2.30378125" y2="17.88578125" width="0.2032" layer="1"/>
-<wire x1="2.30378125" y1="20.59178125" x2="2.794" y2="21.082" width="0.2032" layer="1"/>
-<via x="2.794" y="21.082" extent="1-16" drill="0.3048"/>
-<wire x1="2.794" y1="21.082" x2="2.794" y2="19.812" width="0.2032" layer="16"/>
-<wire x1="2.30378125" y1="17.88578125" x2="2.30378125" y2="20.59178125" width="0.2032" layer="1"/>
+<via x="3.81" y="19.812" extent="1-16" drill="0.3048"/>
+<wire x1="3.81" y1="19.812" x2="2.794" y2="18.796" width="0.2032" layer="16"/>
+<wire x1="2.3836" y1="19.0698625" x2="3.1257375" y2="19.812" width="0.2032" layer="1"/>
+<wire x1="3.1257375" y1="19.812" x2="3.81" y2="19.812" width="0.2032" layer="1"/>
+<wire x1="1.563" y1="17.145" x2="2.3836" y2="17.9656" width="0.2032" layer="1"/>
+<wire x1="2.3836" y1="17.9656" x2="2.3836" y2="19.0698625" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="JP5" pad="1"/>
 <contactref element="D1" pad="A"/>
-<wire x1="1.409" y1="18.542" x2="1.409" y2="20.69115" width="0.2032" layer="1"/>
-<wire x1="1.409" y1="20.69115" x2="1.771784375" y2="21.053934375" width="0.2032" layer="1"/>
-<via x="1.771784375" y="21.053934375" extent="1-16" drill="0.3048"/>
-<wire x1="1.771784375" y1="21.053934375" x2="1.771784375" y2="19.818215625" width="0.2032" layer="16"/>
-<wire x1="1.771784375" y1="19.818215625" x2="1.778" y2="19.812" width="0.2032" layer="16"/>
+<wire x1="1.409" y1="18.542" x2="1.409" y2="19.51171875" width="0.2032" layer="1"/>
+<wire x1="1.409" y1="19.51171875" x2="1.136784375" y2="19.783934375" width="0.2032" layer="1"/>
+<wire x1="1.136784375" y1="19.783934375" x2="0.755784375" y2="19.783934375" width="0.2032" layer="1"/>
+<via x="0.755784375" y="19.783934375" extent="1-16" drill="0.3048"/>
+<wire x1="0.755784375" y1="19.783934375" x2="0.790065625" y2="19.783934375" width="0.2032" layer="16"/>
+<wire x1="0.790065625" y1="19.783934375" x2="1.778" y2="18.796" width="0.2032" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

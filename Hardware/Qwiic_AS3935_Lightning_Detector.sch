@@ -19500,10 +19500,9 @@ blocks.&lt;/p&gt;</description>
 <plain>
 <text x="167.64" y="7.62" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
-<wire x1="0" y1="71.12" x2="111.76" y2="71.12" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="111.76" y1="71.12" x2="111.76" y2="185.42" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="0" y1="71.12" x2="121.92" y2="71.12" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="71.12" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="147.32" y1="71.12" x2="111.76" y2="71.12" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="147.32" y1="71.12" x2="121.92" y2="71.12" width="0.2032" layer="97" style="shortdash"/>
 <text x="114.3" y="180.34" size="2.54" layer="94" font="vector">AS3935 Lightning Detector</text>
 <text x="5.08" y="180.34" size="2.54" layer="94" font="vector">Jumpers</text>
 <text x="2.54" y="63.5" size="2.54" layer="94" font="vector">Headers</text>
@@ -19517,36 +19516,73 @@ blocks.&lt;/p&gt;</description>
 Pullup Reistors</text>
 <text x="12.7" y="91.44" size="1.27" layer="97" font="vector">Close jumpers to change 
 I2C Address</text>
-<wire x1="50.8" y1="127" x2="50.8" y2="116.84" width="0.2032" layer="97"/>
-<wire x1="50.8" y1="116.84" x2="50.8" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="50.8" y1="111.76" x2="50.8" y2="106.68" width="0.2032" layer="97"/>
-<wire x1="86.36" y1="106.68" x2="86.36" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="86.36" y1="111.76" x2="86.36" y2="116.84" width="0.2032" layer="97"/>
-<wire x1="86.36" y1="116.84" x2="86.36" y2="127" width="0.2032" layer="97"/>
-<wire x1="86.36" y1="127" x2="76.2" y2="127" width="0.2032" layer="97"/>
-<wire x1="76.2" y1="127" x2="66.04" y2="127" width="0.2032" layer="97"/>
-<wire x1="66.04" y1="127" x2="50.8" y2="127" width="0.2032" layer="97"/>
-<wire x1="66.04" y1="127" x2="66.04" y2="106.68" width="0.2032" layer="97"/>
-<wire x1="50.8" y1="116.84" x2="86.36" y2="116.84" width="0.2032" layer="97"/>
-<wire x1="50.8" y1="111.76" x2="86.36" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="50.8" y1="106.68" x2="86.36" y2="106.68" width="0.2032" layer="97"/>
-<wire x1="76.2" y1="127" x2="76.2" y2="106.68" width="0.2032" layer="97"/>
-<text x="78.74" y="121.92" size="1.778" layer="97" font="vector" ratio="15">ADD0</text>
-<text x="68.58" y="121.92" size="1.778" layer="97" font="vector" ratio="15">ADD1</text>
-<text x="68.58" y="114.3" size="1.27" layer="97" font="vector">OPEN</text>
-<text x="78.74" y="114.3" size="1.27" layer="97" font="vector">OPEN</text>
-<text x="68.58" y="109.22" size="1.27" layer="97" font="vector">OPEN</text>
-<text x="78.74" y="109.22" size="1.27" layer="97" font="vector">CLOSED</text>
-<text x="53.34" y="121.92" size="1.778" layer="97" font="vector" ratio="15">ADDRESS</text>
-<text x="55.88" y="114.3" size="1.27" layer="97" font="vector">0x03</text>
-<text x="55.88" y="109.22" size="1.27" layer="97" font="vector">0x02</text>
-<text x="38.1" y="114.3" size="1.27" layer="97" font="vector" ratio="15">Default</text>
-<wire x1="30.48" y1="111.76" x2="30.48" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="30.48" y1="114.3" x2="35.56" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="45.72" y1="114.3" x2="48.26" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="43.18" y1="121.92" x2="43.18" y2="116.84" width="0.2032" layer="97"/>
+<wire x1="43.18" y1="116.84" x2="43.18" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="43.18" y1="111.76" x2="43.18" y2="106.68" width="0.2032" layer="97"/>
+<wire x1="43.18" y1="106.68" x2="43.18" y2="101.6" width="0.2032" layer="97"/>
+<wire x1="43.18" y1="101.6" x2="43.18" y2="96.52" width="0.2032" layer="97"/>
+<wire x1="78.74" y1="96.52" x2="78.74" y2="101.6" width="0.2032" layer="97"/>
+<wire x1="78.74" y1="101.6" x2="78.74" y2="106.68" width="0.2032" layer="97"/>
+<wire x1="78.74" y1="106.68" x2="78.74" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="78.74" y1="111.76" x2="78.74" y2="116.84" width="0.2032" layer="97"/>
+<wire x1="78.74" y1="116.84" x2="78.74" y2="121.92" width="0.2032" layer="97"/>
+<wire x1="78.74" y1="121.92" x2="68.58" y2="121.92" width="0.2032" layer="97"/>
+<wire x1="68.58" y1="121.92" x2="58.42" y2="121.92" width="0.2032" layer="97"/>
+<wire x1="58.42" y1="121.92" x2="43.18" y2="121.92" width="0.2032" layer="97"/>
+<wire x1="58.42" y1="121.92" x2="58.42" y2="106.68" width="0.2032" layer="97"/>
+<wire x1="43.18" y1="116.84" x2="78.74" y2="116.84" width="0.2032" layer="97"/>
+<wire x1="43.18" y1="111.76" x2="78.74" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="68.58" y1="121.92" x2="68.58" y2="106.68" width="0.2032" layer="97"/>
+<text x="71.12" y="116.84" size="1.778" layer="97" font="vector" ratio="15">ADD0</text>
+<text x="60.96" y="116.84" size="1.778" layer="97" font="vector" ratio="15">ADD1</text>
+<text x="60.96" y="114.3" size="1.27" layer="97" font="vector">OPEN</text>
+<text x="71.12" y="114.3" size="1.27" layer="97" font="vector">OPEN</text>
+<text x="60.96" y="109.22" size="1.27" layer="97" font="vector">OPEN</text>
+<text x="71.12" y="109.22" size="1.27" layer="97" font="vector">CLOSED</text>
+<text x="45.72" y="116.84" size="1.778" layer="97" font="vector" ratio="15">ADDRESS</text>
+<text x="48.26" y="114.3" size="1.27" layer="97" font="vector">0x03</text>
+<text x="48.26" y="109.22" size="1.27" layer="97" font="vector">0x02</text>
+<text x="33.02" y="114.3" size="1.27" layer="97" font="vector" ratio="15">Default</text>
+<wire x1="29.21" y1="109.22" x2="29.21" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="29.21" y1="114.3" x2="33.02" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="38.862" y1="114.3" x2="41.402" y2="114.3" width="0.2032" layer="97" style="shortdash"/>
 <text x="185.42" y="160.02" size="1.27" layer="97">VCC Range: 2.4 - 3.6V</text>
 <text x="135.89" y="143.764" size="1.27" layer="97" font="vector">Cut trace to 
 disconnect LED</text>
+<wire x1="43.18" y1="106.68" x2="58.42" y2="106.68" width="0.2032" layer="97"/>
+<wire x1="58.42" y1="106.68" x2="68.58" y2="106.68" width="0.2032" layer="97"/>
+<wire x1="68.58" y1="106.68" x2="78.74" y2="106.68" width="0.2032" layer="97"/>
+<wire x1="43.18" y1="101.6" x2="58.42" y2="101.6" width="0.2032" layer="97"/>
+<wire x1="58.42" y1="101.6" x2="68.58" y2="101.6" width="0.2032" layer="97"/>
+<wire x1="68.58" y1="101.6" x2="78.74" y2="101.6" width="0.2032" layer="97"/>
+<wire x1="58.42" y1="106.68" x2="58.42" y2="101.6" width="0.2032" layer="97"/>
+<wire x1="43.18" y1="96.52" x2="58.42" y2="96.52" width="0.2032" layer="97"/>
+<wire x1="58.42" y1="101.6" x2="58.42" y2="96.52" width="0.2032" layer="97"/>
+<wire x1="58.42" y1="96.52" x2="68.58" y2="96.52" width="0.2032" layer="97"/>
+<text x="48.26" y="104.14" size="1.27" layer="97" font="vector">0x01</text>
+<text x="48.26" y="99.06" size="1.27" layer="97" font="vector">0x00</text>
+<wire x1="68.58" y1="96.52" x2="78.74" y2="96.52" width="0.2032" layer="97"/>
+<wire x1="68.58" y1="106.68" x2="68.58" y2="101.6" width="0.2032" layer="97"/>
+<wire x1="68.58" y1="101.6" x2="68.58" y2="96.52" width="0.2032" layer="97"/>
+<text x="71.12" y="104.14" size="1.27" layer="97" font="vector">OPEN</text>
+<text x="60.96" y="104.14" size="1.27" layer="97" font="vector">CLOSED</text>
+<text x="60.96" y="99.06" size="1.27" layer="97" font="vector">CLOSED</text>
+<text x="71.12" y="99.06" size="1.27" layer="97" font="vector">CLOSED</text>
+<wire x1="78.74" y1="104.14" x2="83.82" y2="104.14" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="83.82" y1="104.14" x2="83.82" y2="99.06" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="83.82" y1="99.06" x2="78.74" y2="99.06" width="0.2032" layer="97" style="shortdash"/>
+<text x="86.36" y="96.52" size="1.27" layer="97" font="vector">These two addresses are
+reserved for special I2C purposes. 
+Use if you know what you're 
+doing. More Info Here:
+https://www.i2c-bus.org/addressing/</text>
+<wire x1="121.92" y1="71.12" x2="121.92" y2="109.22" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="121.92" y1="109.22" x2="106.68" y2="109.22" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="106.68" y1="109.22" x2="106.68" y2="185.42" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="29.21" y1="109.22" x2="29.972" y2="109.982" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="29.972" y1="109.982" x2="29.972" y2="110.236" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="29.21" y1="109.22" x2="28.448" y2="109.982" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="28.448" y1="109.982" x2="28.448" y2="110.236" width="0.2032" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -20010,7 +20046,7 @@ disconnect LED</text>
 <pinref part="U1" gate="G$1" pin="INP"/>
 </segment>
 </net>
-<net name="IRQ" class="0">
+<net name="INT" class="0">
 <segment>
 <pinref part="J4" gate="J1" pin="7"/>
 <wire x1="40.64" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
