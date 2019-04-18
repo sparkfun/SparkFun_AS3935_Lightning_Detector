@@ -5,6 +5,11 @@
 
 [*SparkFun Qwiic AS3935 Lightning Detector (SEN-15276)*](https://www.sparkfun.com/products/15276)
 
+
+The SparkFun Qwiic Lightning Detector adds lightning detection to your next weather station to make sure you are aware of any potential hazardous weather heading your way. The AS3935 is capable of detecting lightning up to 40km away with an accuracy of 1km to the storm front with a sensitive antenna tuned to pick up lightning events in the 500kHz band. Utilizing our handy Qwiic system, no soldering is required to connect it to the rest of your system. However, we still have broken out 0.1"-spaced pins in case you prefer to use a breadboard.
+
+There are a number of sources that can cause false positives but the lightning detector itself can reliably filter these out by default. If not, we've made sure to include settings you can configure using the lightning detector library to increase the chip's robustness to noise and false positives. The lightning detector library also gives you access to settings such as storm sensing sensitivity when detecting indoors vs outdoors, or the number of lightning strikes needed to trigger an interrupt.
+
 Repository Contents
 -------------------
 
