@@ -1,7 +1,7 @@
  SparkFun Qwiic AS3935 Lightning Detector
 ========================================
 
-[![Qwiic AS3925 Lightning Detector](https://cdn.sparkfun.com/r/400-400/assets/parts/1/3/7/5/1/15276-SparkFun_Lightning_Detector_-_AS3935__Qwiic_-01.jpg)](https://www.sparkfun.com/products/15276)
+[![SparkFun AS3935 Lightning Detector](https://cdn.sparkfun.com/r/400-400/assets/parts/1/3/7/5/1/15276-SparkFun_Lightning_Detector_-_AS3935__Qwiic_-01.jpg)](https://www.sparkfun.com/products/15276)
 
 [*SparkFun Qwiic AS3935 Lightning Detector (SEN-15276)*](https://www.sparkfun.com/products/15276)
 
@@ -19,7 +19,7 @@ Repository Contents
 Documentation
 --------------
 * **[Installing an Arduino Library](https://learn.sparkfun.com/tutorials/installing-an-arduino-library/)** - Basic instructions on installing an Arduino library
-* **[Library](https://github.com/sparkfun/SparkFun_AS3935_Lightning_Detector_Library)** - Arduino library for the Qwiic AS3935 Lightning Detector
+* **[Library](https://github.com/sparkfun/SparkFun_AS3935_Lightning_Detector_Arduino_Library)** - Arduino library for the Qwiic AS3935 Lightning Detector
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-as3935-lightning-detector-hookup-guide)** - Hookup Guide for the SparkFun Qwiic AS3935 Lightning Detector
 
 Product Versions
