@@ -337,6 +337,95 @@
 <rectangle x1="0.08" y1="-0.74" x2="3.20" y2="-0.78" layer="21"/>
 <rectangle x1="0.08" y1="-0.78" x2="3.16" y2="-0.82" layer="21"/>
 </package>
+<package name="NC2">
+<rectangle x1="0.78" y1="0.41" x2="0.84" y2="0.38" layer="21"/>
+<rectangle x1="1.29" y1="0.41" x2="1.32" y2="0.38" layer="21"/>
+<rectangle x1="1.80" y1="0.41" x2="1.95" y2="0.38" layer="21"/>
+<rectangle x1="0.72" y1="0.38" x2="0.90" y2="0.34" layer="21"/>
+<rectangle x1="1.23" y1="0.38" x2="1.41" y2="0.34" layer="21"/>
+<rectangle x1="1.71" y1="0.38" x2="2.04" y2="0.34" layer="21"/>
+<rectangle x1="0.72" y1="0.34" x2="0.93" y2="0.31" layer="21"/>
+<rectangle x1="1.20" y1="0.34" x2="1.41" y2="0.31" layer="21"/>
+<rectangle x1="1.65" y1="0.34" x2="2.10" y2="0.31" layer="21"/>
+<rectangle x1="0.72" y1="0.32" x2="0.93" y2="0.29" layer="21"/>
+<rectangle x1="1.20" y1="0.32" x2="1.41" y2="0.29" layer="21"/>
+<rectangle x1="1.62" y1="0.32" x2="2.16" y2="0.29" layer="21"/>
+<rectangle x1="0.72" y1="0.29" x2="0.96" y2="0.26" layer="21"/>
+<rectangle x1="1.20" y1="0.29" x2="1.41" y2="0.26" layer="21"/>
+<rectangle x1="1.59" y1="0.29" x2="2.16" y2="0.26" layer="21"/>
+<rectangle x1="0.72" y1="0.26" x2="0.99" y2="0.22" layer="21"/>
+<rectangle x1="1.20" y1="0.26" x2="1.41" y2="0.22" layer="21"/>
+<rectangle x1="1.56" y1="0.26" x2="2.16" y2="0.22" layer="21"/>
+<rectangle x1="0.72" y1="0.22" x2="1.02" y2="0.19" layer="21"/>
+<rectangle x1="1.20" y1="0.22" x2="1.41" y2="0.19" layer="21"/>
+<rectangle x1="1.53" y1="0.22" x2="2.16" y2="0.19" layer="21"/>
+<rectangle x1="0.72" y1="0.20" x2="1.02" y2="0.17" layer="21"/>
+<rectangle x1="1.20" y1="0.20" x2="1.41" y2="0.17" layer="21"/>
+<rectangle x1="1.50" y1="0.20" x2="1.80" y2="0.17" layer="21"/>
+<rectangle x1="1.98" y1="0.20" x2="2.13" y2="0.17" layer="21"/>
+<rectangle x1="0.72" y1="0.17" x2="1.05" y2="0.14" layer="21"/>
+<rectangle x1="1.20" y1="0.17" x2="1.41" y2="0.14" layer="21"/>
+<rectangle x1="1.50" y1="0.17" x2="1.74" y2="0.14" layer="21"/>
+<rectangle x1="2.01" y1="0.17" x2="2.10" y2="0.14" layer="21"/>
+<rectangle x1="0.72" y1="0.14" x2="1.08" y2="0.10" layer="21"/>
+<rectangle x1="1.20" y1="0.14" x2="1.41" y2="0.10" layer="21"/>
+<rectangle x1="1.50" y1="0.14" x2="1.71" y2="0.10" layer="21"/>
+<rectangle x1="0.72" y1="0.10" x2="1.11" y2="0.07" layer="21"/>
+<rectangle x1="1.20" y1="0.10" x2="1.41" y2="0.07" layer="21"/>
+<rectangle x1="1.47" y1="0.10" x2="1.71" y2="0.07" layer="21"/>
+<rectangle x1="0.72" y1="0.07" x2="1.11" y2="0.04" layer="21"/>
+<rectangle x1="1.20" y1="0.07" x2="1.41" y2="0.04" layer="21"/>
+<rectangle x1="1.47" y1="0.07" x2="1.68" y2="0.04" layer="21"/>
+<rectangle x1="0.72" y1="0.05" x2="1.14" y2="0.02" layer="21"/>
+<rectangle x1="1.20" y1="0.05" x2="1.41" y2="0.02" layer="21"/>
+<rectangle x1="1.47" y1="0.05" x2="1.68" y2="0.02" layer="21"/>
+<rectangle x1="0.72" y1="0.02" x2="0.90" y2="-0.02" layer="21"/>
+<rectangle x1="0.93" y1="0.02" x2="1.17" y2="-0.02" layer="21"/>
+<rectangle x1="1.20" y1="0.02" x2="1.41" y2="-0.02" layer="21"/>
+<rectangle x1="1.47" y1="0.02" x2="1.68" y2="-0.02" layer="21"/>
+<rectangle x1="0.72" y1="-0.02" x2="0.90" y2="-0.05" layer="21"/>
+<rectangle x1="0.96" y1="-0.02" x2="1.41" y2="-0.05" layer="21"/>
+<rectangle x1="1.47" y1="-0.02" x2="1.68" y2="-0.05" layer="21"/>
+<rectangle x1="0.72" y1="-0.04" x2="0.90" y2="-0.07" layer="21"/>
+<rectangle x1="0.99" y1="-0.04" x2="1.41" y2="-0.07" layer="21"/>
+<rectangle x1="1.47" y1="-0.04" x2="1.68" y2="-0.07" layer="21"/>
+<rectangle x1="0.72" y1="-0.07" x2="0.90" y2="-0.10" layer="21"/>
+<rectangle x1="0.99" y1="-0.07" x2="1.41" y2="-0.10" layer="21"/>
+<rectangle x1="1.47" y1="-0.07" x2="1.68" y2="-0.10" layer="21"/>
+<rectangle x1="0.72" y1="-0.10" x2="0.90" y2="-0.14" layer="21"/>
+<rectangle x1="1.02" y1="-0.10" x2="1.41" y2="-0.14" layer="21"/>
+<rectangle x1="1.50" y1="-0.10" x2="1.71" y2="-0.14" layer="21"/>
+<rectangle x1="0.72" y1="-0.14" x2="0.90" y2="-0.17" layer="21"/>
+<rectangle x1="1.05" y1="-0.14" x2="1.41" y2="-0.17" layer="21"/>
+<rectangle x1="1.50" y1="-0.14" x2="1.71" y2="-0.17" layer="21"/>
+<rectangle x1="0.72" y1="-0.17" x2="0.90" y2="-0.20" layer="21"/>
+<rectangle x1="1.08" y1="-0.17" x2="1.41" y2="-0.20" layer="21"/>
+<rectangle x1="1.50" y1="-0.17" x2="1.77" y2="-0.20" layer="21"/>
+<rectangle x1="2.01" y1="-0.17" x2="2.10" y2="-0.20" layer="21"/>
+<rectangle x1="0.72" y1="-0.19" x2="0.90" y2="-0.22" layer="21"/>
+<rectangle x1="1.08" y1="-0.19" x2="1.41" y2="-0.22" layer="21"/>
+<rectangle x1="1.53" y1="-0.19" x2="1.83" y2="-0.22" layer="21"/>
+<rectangle x1="1.95" y1="-0.19" x2="2.13" y2="-0.22" layer="21"/>
+<rectangle x1="0.72" y1="-0.22" x2="0.90" y2="-0.26" layer="21"/>
+<rectangle x1="1.11" y1="-0.22" x2="1.41" y2="-0.26" layer="21"/>
+<rectangle x1="1.53" y1="-0.22" x2="2.16" y2="-0.26" layer="21"/>
+<rectangle x1="0.72" y1="-0.26" x2="0.90" y2="-0.29" layer="21"/>
+<rectangle x1="1.14" y1="-0.26" x2="1.41" y2="-0.29" layer="21"/>
+<rectangle x1="1.56" y1="-0.26" x2="2.16" y2="-0.29" layer="21"/>
+<rectangle x1="0.72" y1="-0.28" x2="0.90" y2="-0.31" layer="21"/>
+<rectangle x1="1.17" y1="-0.28" x2="1.41" y2="-0.31" layer="21"/>
+<rectangle x1="1.59" y1="-0.28" x2="2.16" y2="-0.31" layer="21"/>
+<rectangle x1="0.72" y1="-0.31" x2="0.90" y2="-0.34" layer="21"/>
+<rectangle x1="1.17" y1="-0.31" x2="1.41" y2="-0.34" layer="21"/>
+<rectangle x1="1.62" y1="-0.31" x2="2.13" y2="-0.34" layer="21"/>
+<rectangle x1="0.72" y1="-0.34" x2="0.90" y2="-0.38" layer="21"/>
+<rectangle x1="1.20" y1="-0.34" x2="1.41" y2="-0.38" layer="21"/>
+<rectangle x1="1.68" y1="-0.34" x2="2.10" y2="-0.38" layer="21"/>
+<rectangle x1="0.72" y1="-0.38" x2="0.87" y2="-0.41" layer="21"/>
+<rectangle x1="1.23" y1="-0.38" x2="1.38" y2="-0.41" layer="21"/>
+<rectangle x1="1.74" y1="-0.38" x2="2.04" y2="-0.41" layer="21"/>
+<rectangle x1="1.86" y1="-0.41" x2="1.92" y2="-0.44" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="I2C0">
@@ -344,6 +433,9 @@
 </symbol>
 <symbol name="SPI1">
 <text x="0" y="0" size="1.778" layer="94">SPI</text>
+</symbol>
+<symbol name="NC2">
+<text x="0" y="0" size="1.778" layer="94">NC</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -365,6 +457,18 @@
 </gates>
 <devices>
 <device name="" package="SPI1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NC2">
+<gates>
+<gate name="G$1" symbol="NC2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NC2">
 <technologies>
 <technology name=""/>
 </technologies>

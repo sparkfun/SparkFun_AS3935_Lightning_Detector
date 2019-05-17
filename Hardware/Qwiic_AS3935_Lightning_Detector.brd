@@ -4651,6 +4651,95 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.08" y1="-0.78" x2="3.2" y2="-0.74" layer="21"/>
 <rectangle x1="0.08" y1="-0.82" x2="3.16" y2="-0.78" layer="21"/>
 </package>
+<package name="NC2">
+<rectangle x1="0.78" y1="0.38" x2="0.84" y2="0.41" layer="21"/>
+<rectangle x1="1.29" y1="0.38" x2="1.32" y2="0.41" layer="21"/>
+<rectangle x1="1.8" y1="0.38" x2="1.95" y2="0.41" layer="21"/>
+<rectangle x1="0.72" y1="0.34" x2="0.9" y2="0.38" layer="21"/>
+<rectangle x1="1.23" y1="0.34" x2="1.41" y2="0.38" layer="21"/>
+<rectangle x1="1.71" y1="0.34" x2="2.04" y2="0.38" layer="21"/>
+<rectangle x1="0.72" y1="0.31" x2="0.93" y2="0.34" layer="21"/>
+<rectangle x1="1.2" y1="0.31" x2="1.41" y2="0.34" layer="21"/>
+<rectangle x1="1.65" y1="0.31" x2="2.1" y2="0.34" layer="21"/>
+<rectangle x1="0.72" y1="0.29" x2="0.93" y2="0.32" layer="21"/>
+<rectangle x1="1.2" y1="0.29" x2="1.41" y2="0.32" layer="21"/>
+<rectangle x1="1.62" y1="0.29" x2="2.16" y2="0.32" layer="21"/>
+<rectangle x1="0.72" y1="0.26" x2="0.96" y2="0.29" layer="21"/>
+<rectangle x1="1.2" y1="0.26" x2="1.41" y2="0.29" layer="21"/>
+<rectangle x1="1.59" y1="0.26" x2="2.16" y2="0.29" layer="21"/>
+<rectangle x1="0.72" y1="0.22" x2="0.99" y2="0.26" layer="21"/>
+<rectangle x1="1.2" y1="0.22" x2="1.41" y2="0.26" layer="21"/>
+<rectangle x1="1.56" y1="0.22" x2="2.16" y2="0.26" layer="21"/>
+<rectangle x1="0.72" y1="0.19" x2="1.02" y2="0.22" layer="21"/>
+<rectangle x1="1.2" y1="0.19" x2="1.41" y2="0.22" layer="21"/>
+<rectangle x1="1.53" y1="0.19" x2="2.16" y2="0.22" layer="21"/>
+<rectangle x1="0.72" y1="0.17" x2="1.02" y2="0.2" layer="21"/>
+<rectangle x1="1.2" y1="0.17" x2="1.41" y2="0.2" layer="21"/>
+<rectangle x1="1.5" y1="0.17" x2="1.8" y2="0.2" layer="21"/>
+<rectangle x1="1.98" y1="0.17" x2="2.13" y2="0.2" layer="21"/>
+<rectangle x1="0.72" y1="0.14" x2="1.05" y2="0.17" layer="21"/>
+<rectangle x1="1.2" y1="0.14" x2="1.41" y2="0.17" layer="21"/>
+<rectangle x1="1.5" y1="0.14" x2="1.74" y2="0.17" layer="21"/>
+<rectangle x1="2.01" y1="0.14" x2="2.1" y2="0.17" layer="21"/>
+<rectangle x1="0.72" y1="0.1" x2="1.08" y2="0.14" layer="21"/>
+<rectangle x1="1.2" y1="0.1" x2="1.41" y2="0.14" layer="21"/>
+<rectangle x1="1.5" y1="0.1" x2="1.71" y2="0.14" layer="21"/>
+<rectangle x1="0.72" y1="0.07" x2="1.11" y2="0.1" layer="21"/>
+<rectangle x1="1.2" y1="0.07" x2="1.41" y2="0.1" layer="21"/>
+<rectangle x1="1.47" y1="0.07" x2="1.71" y2="0.1" layer="21"/>
+<rectangle x1="0.72" y1="0.04" x2="1.11" y2="0.07" layer="21"/>
+<rectangle x1="1.2" y1="0.04" x2="1.41" y2="0.07" layer="21"/>
+<rectangle x1="1.47" y1="0.04" x2="1.68" y2="0.07" layer="21"/>
+<rectangle x1="0.72" y1="0.02" x2="1.14" y2="0.05" layer="21"/>
+<rectangle x1="1.2" y1="0.02" x2="1.41" y2="0.05" layer="21"/>
+<rectangle x1="1.47" y1="0.02" x2="1.68" y2="0.05" layer="21"/>
+<rectangle x1="0.72" y1="-0.02" x2="0.9" y2="0.02" layer="21"/>
+<rectangle x1="0.93" y1="-0.02" x2="1.17" y2="0.02" layer="21"/>
+<rectangle x1="1.2" y1="-0.02" x2="1.41" y2="0.02" layer="21"/>
+<rectangle x1="1.47" y1="-0.02" x2="1.68" y2="0.02" layer="21"/>
+<rectangle x1="0.72" y1="-0.05" x2="0.9" y2="-0.02" layer="21"/>
+<rectangle x1="0.96" y1="-0.05" x2="1.41" y2="-0.02" layer="21"/>
+<rectangle x1="1.47" y1="-0.05" x2="1.68" y2="-0.02" layer="21"/>
+<rectangle x1="0.72" y1="-0.07" x2="0.9" y2="-0.04" layer="21"/>
+<rectangle x1="0.99" y1="-0.07" x2="1.41" y2="-0.04" layer="21"/>
+<rectangle x1="1.47" y1="-0.07" x2="1.68" y2="-0.04" layer="21"/>
+<rectangle x1="0.72" y1="-0.1" x2="0.9" y2="-0.07" layer="21"/>
+<rectangle x1="0.99" y1="-0.1" x2="1.41" y2="-0.07" layer="21"/>
+<rectangle x1="1.47" y1="-0.1" x2="1.68" y2="-0.07" layer="21"/>
+<rectangle x1="0.72" y1="-0.14" x2="0.9" y2="-0.1" layer="21"/>
+<rectangle x1="1.02" y1="-0.14" x2="1.41" y2="-0.1" layer="21"/>
+<rectangle x1="1.5" y1="-0.14" x2="1.71" y2="-0.1" layer="21"/>
+<rectangle x1="0.72" y1="-0.17" x2="0.9" y2="-0.14" layer="21"/>
+<rectangle x1="1.05" y1="-0.17" x2="1.41" y2="-0.14" layer="21"/>
+<rectangle x1="1.5" y1="-0.17" x2="1.71" y2="-0.14" layer="21"/>
+<rectangle x1="0.72" y1="-0.2" x2="0.9" y2="-0.17" layer="21"/>
+<rectangle x1="1.08" y1="-0.2" x2="1.41" y2="-0.17" layer="21"/>
+<rectangle x1="1.5" y1="-0.2" x2="1.77" y2="-0.17" layer="21"/>
+<rectangle x1="2.01" y1="-0.2" x2="2.1" y2="-0.17" layer="21"/>
+<rectangle x1="0.72" y1="-0.22" x2="0.9" y2="-0.19" layer="21"/>
+<rectangle x1="1.08" y1="-0.22" x2="1.41" y2="-0.19" layer="21"/>
+<rectangle x1="1.53" y1="-0.22" x2="1.83" y2="-0.19" layer="21"/>
+<rectangle x1="1.95" y1="-0.22" x2="2.13" y2="-0.19" layer="21"/>
+<rectangle x1="0.72" y1="-0.26" x2="0.9" y2="-0.22" layer="21"/>
+<rectangle x1="1.11" y1="-0.26" x2="1.41" y2="-0.22" layer="21"/>
+<rectangle x1="1.53" y1="-0.26" x2="2.16" y2="-0.22" layer="21"/>
+<rectangle x1="0.72" y1="-0.29" x2="0.9" y2="-0.26" layer="21"/>
+<rectangle x1="1.14" y1="-0.29" x2="1.41" y2="-0.26" layer="21"/>
+<rectangle x1="1.56" y1="-0.29" x2="2.16" y2="-0.26" layer="21"/>
+<rectangle x1="0.72" y1="-0.31" x2="0.9" y2="-0.28" layer="21"/>
+<rectangle x1="1.17" y1="-0.31" x2="1.41" y2="-0.28" layer="21"/>
+<rectangle x1="1.59" y1="-0.31" x2="2.16" y2="-0.28" layer="21"/>
+<rectangle x1="0.72" y1="-0.34" x2="0.9" y2="-0.31" layer="21"/>
+<rectangle x1="1.17" y1="-0.34" x2="1.41" y2="-0.31" layer="21"/>
+<rectangle x1="1.62" y1="-0.34" x2="2.13" y2="-0.31" layer="21"/>
+<rectangle x1="0.72" y1="-0.38" x2="0.9" y2="-0.34" layer="21"/>
+<rectangle x1="1.2" y1="-0.38" x2="1.41" y2="-0.34" layer="21"/>
+<rectangle x1="1.68" y1="-0.38" x2="2.1" y2="-0.34" layer="21"/>
+<rectangle x1="0.72" y1="-0.41" x2="0.87" y2="-0.38" layer="21"/>
+<rectangle x1="1.23" y1="-0.41" x2="1.38" y2="-0.38" layer="21"/>
+<rectangle x1="1.74" y1="-0.41" x2="2.04" y2="-0.38" layer="21"/>
+<rectangle x1="1.86" y1="-0.44" x2="1.92" y2="-0.41" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -4983,6 +5072,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$1" library="LED" package="LED0" value="" x="4.003040625" y="16.957040625" smashed="yes" rot="MR0"/>
 <element name="U$2" library="DataLines" package="I2C0" value="" x="15.748" y="6.096" smashed="yes"/>
 <element name="U$3" library="DataLines" package="SPI1" value="" x="19.812" y="7.112" smashed="yes" rot="MR0"/>
+<element name="U$4" library="DataLines" package="NC2" value="" x="12.7" y="1.524" smashed="yes" rot="R90"/>
+<element name="U$5" library="DataLines" package="NC2" value="" x="17.78" y="1.524" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">

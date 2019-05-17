@@ -16125,8 +16125,10 @@ blocks.&lt;/p&gt;</description>
 <wire x1="213.36" y1="66.04" x2="213.36" y2="101.6" width="0.2032" layer="97" style="shortdash"/>
 <text x="165.1" y="96.52" size="2.54" layer="94" font="vector">500 kHz Resonance Antenna</text>
 <text x="12.7" y="142.24" size="1.27" layer="97" font="vector">Close Jumper to enable SPI</text>
-<text x="78.74" y="160.02" size="1.27" layer="97" font="vector">Cut traces to disconnect
-Pullup Reistors</text>
+<text x="78.74" y="160.02" size="1.27" layer="97" font="vector">R1 is disconnected by default
+and is not recommended unless
+there are three or more device
+on the I2C bus</text>
 <text x="12.7" y="91.44" size="1.27" layer="97" font="vector">Close jumpers to change 
 I2C Address</text>
 <wire x1="43.18" y1="121.92" x2="43.18" y2="116.84" width="0.2032" layer="97"/>
@@ -16184,7 +16186,9 @@ https://www.i2c-bus.org/addressing/</text>
 <wire x1="29.972" y1="109.982" x2="29.972" y2="110.236" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="29.21" y1="109.22" x2="28.448" y2="109.982" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="28.448" y1="109.982" x2="28.448" y2="110.236" width="0.2032" layer="97" style="shortdash"/>
-<text x="81.28" y="167.64" size="1.27" layer="91" font="vector">update</text>
+<text x="50.8" y="160.02" size="1.27" layer="97" font="vector">R2 pullup resistor
+on the clock is on
+by default. </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
