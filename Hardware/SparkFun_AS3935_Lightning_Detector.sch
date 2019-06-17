@@ -19149,13 +19149,13 @@ blocks.&lt;/p&gt;</description>
 <part name="JP5" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value="LED"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="167.64" y="7.62" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v12</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v20</text>
 <wire x1="0" y1="58.42" x2="132.08" y2="58.42" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="58.42" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="58.42" x2="132.08" y2="58.42" width="0.2032" layer="97" style="shortdash"/>
@@ -19169,7 +19169,7 @@ blocks.&lt;/p&gt;</description>
 <text x="43.18" y="96.52" size="2.54" layer="94" font="vector">500 kHz Resonance Antenna</text>
 <text x="142.24" y="139.7" size="1.27" layer="97" font="vector">Open Jumper to enable I2C</text>
 <text x="210.82" y="160.02" size="1.27" layer="97" font="vector">R1 should only closed when
-there are three or more device
+there are three or more devices
 on the I2C bus</text>
 <text x="142.24" y="88.9" size="1.27" layer="97" font="vector">Close jumpers to change 
 I2C Address</text>
@@ -19375,12 +19375,12 @@ I2C mode.</text>
 <attribute name="VALUE" x="25.4" y="128.27" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="223.52" y="45.72" smashed="yes"/>
-<instance part="R8" gate="G$1" x="116.84" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="115.316" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="118.364" y="132.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R8" gate="G$1" x="119.38" y="149.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.904" y="149.86" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="117.856" y="149.86" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="GND6" gate="1" x="116.84" y="114.3" smashed="yes">
-<attribute name="VALUE" x="116.84" y="114.046" size="1.778" layer="96" align="top-center"/>
+<instance part="SUPPLY2" gate="G$1" x="119.38" y="157.48" smashed="yes">
+<attribute name="VALUE" x="119.38" y="160.274" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -19458,11 +19458,6 @@ I2C mode.</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="20.32" y1="127" x2="20.32" y2="124.46" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="116.84" y1="127" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -19508,6 +19503,11 @@ I2C mode.</text>
 <pinref part="JP4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
 <wire x1="203.2" y1="160.02" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
+<wire x1="119.38" y1="154.94" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI/SDA" class="0">
@@ -19614,9 +19614,12 @@ I2C mode.</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="!CS"/>
-<wire x1="99.06" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="142.24" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="144.78" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
+<junction x="119.38" y="142.24"/>
+<label x="121.92" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">

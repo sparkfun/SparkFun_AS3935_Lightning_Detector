@@ -3,10 +3,10 @@
 <eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -83,10 +83,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -154,7 +154,7 @@
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="19.177" y="-19.177" size="1.778" layer="51" font="vector">Elias Santistevan</text>
-<text x="2.7686" y="1.0668" size="0.762" layer="16" font="vector" ratio="15" rot="MR0">v12</text>
+<text x="2.7686" y="1.0668" size="0.762" layer="16" font="vector" ratio="15" rot="MR0">v20</text>
 <dimension x1="25.4" y1="25.4" x2="0" y2="25.4" x3="12.7" y3="28.194" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="25.4" y1="0" x2="25.4" y2="25.4" x3="30.226" y3="12.7" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <text x="4.318" y="-4.572" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
@@ -4604,13 +4604,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="4.318" y="19.812" extent="1-16" drill="0.381"/>
 <wire x1="12.8896" y1="15.8866" x2="12.8896" y2="14.3016" width="0.254" layer="1"/>
 <wire x1="12.8896" y1="14.3016" x2="13.2146" y2="13.9766" width="0.254" layer="1"/>
-<via x="5.588" y="13.6906" extent="1-16" drill="0.381"/>
+<via x="4.572" y="13.6906" extent="1-16" drill="0.381"/>
 <contactref element="JP5" pad="1"/>
 <via x="15.24" y="10.668" extent="1-16" drill="0.381"/>
 <via x="11.5824" y="4.4958" extent="1-16" drill="0.381"/>
 <wire x1="22.098" y1="14.566" x2="23.114" y2="15.582" width="0.508" layer="1"/>
 <wire x1="23.114" y1="15.582" x2="23.114" y2="17.477" width="0.508" layer="1"/>
-<contactref element="R8" pad="1"/>
+<via x="4.572" y="10.8966" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="3.3V">
 <contactref element="C1" pad="1"/>
@@ -4633,7 +4633,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="7.3914" y1="6.7446" x2="7.3914" y2="5.08" width="0.381" layer="1"/>
 <wire x1="7.3914" y1="6.7446" x2="7.2644" y2="6.8716" width="0.381" layer="1"/>
 <wire x1="5.5118" y1="6.8716" x2="3.517" y2="8.8664" width="0.381" layer="1"/>
-<wire x1="3.517" y1="8.8664" x2="3.517" y2="13.208" width="0.381" layer="1"/>
+<wire x1="3.517" y1="8.8664" x2="3.517" y2="12.192" width="0.381" layer="1"/>
+<wire x1="3.517" y1="12.192" x2="3.517" y2="13.208" width="0.381" layer="1"/>
 <wire x1="3.525" y1="13.2" x2="3.517" y2="13.208" width="0.381" layer="1"/>
 <via x="7.3914" y="5.08" extent="1-16" drill="0.381"/>
 <wire x1="10.795" y1="8.255" x2="9.525" y2="8.255" width="0.254" layer="16"/>
@@ -4653,6 +4654,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="4.572" y1="16.256" x2="3.525" y2="15.209" width="0.381" layer="1"/>
 <wire x1="3.263" y1="17.145" x2="4.445" y2="17.145" width="0.381" layer="1"/>
 <wire x1="4.445" y1="17.145" x2="4.572" y2="17.018" width="0.381" layer="1"/>
+<contactref element="R8" pad="1"/>
+<wire x1="5.754" y1="12.192" x2="3.517" y2="12.192" width="0.254" layer="1"/>
 </signal>
 <signal name="MOSI/SDA">
 <contactref element="U1" pad="13"/>
@@ -4754,15 +4757,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="12.7" y1="1.229359375" x2="11.008359375" y2="2.921" width="0.254" layer="1"/>
 <wire x1="11.008359375" y1="2.921" x2="9.525" y2="2.921" width="0.254" layer="1"/>
 <wire x1="9.525" y1="2.921" x2="8.4074" y2="4.0386" width="0.254" layer="1"/>
-<contactref element="U1" pad="8"/>
-<contactref element="R8" pad="2"/>
-<wire x1="12.2396" y1="15.8866" x2="12.2396" y2="16.7164" width="0.254" layer="1"/>
 <wire x1="12.2396" y1="16.7164" x2="11.43" y2="17.526" width="0.254" layer="1"/>
 <wire x1="9.4742" y1="17.526" x2="11.43" y2="17.526" width="0.254" layer="1"/>
 <wire x1="8.4074" y1="16.4592" x2="9.4742" y2="17.526" width="0.254" layer="1"/>
 <wire x1="8.4074" y1="4.0386" x2="8.4074" y2="12.192" width="0.254" layer="1"/>
 <wire x1="8.4074" y1="12.192" x2="8.4074" y2="16.4592" width="0.254" layer="1"/>
+<contactref element="U1" pad="8"/>
+<contactref element="R8" pad="2"/>
 <wire x1="7.454" y1="12.192" x2="8.4074" y2="12.192" width="0.254" layer="1"/>
+<wire x1="12.2396" y1="16.7164" x2="12.2396" y2="15.8866" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="C3" pad="1"/>
