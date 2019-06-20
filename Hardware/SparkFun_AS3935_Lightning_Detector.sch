@@ -19285,7 +19285,7 @@ I2C Address</text>
 <text x="130.81" y="85.598" size="1.27" layer="97" font="vector">0x03 (Default)</text>
 <text x="134.62" y="81.28" size="1.27" layer="97" font="vector">0x02</text>
 <wire x1="128.27" y1="71.12" x2="128.27" y2="76.2" width="0.2032" layer="97" style="shortdash"/>
-<text x="38.1" y="162.56" size="1.27" layer="97">VCC Range: 2.4 - 3.6V</text>
+<text x="38.1" y="162.56" size="1.27" layer="97" font="vector">VCC Range: 2.4 - 3.6V</text>
 <text x="118.11" y="159.004" size="1.27" layer="97" font="vector">Cut trace to 
 disconnect LED</text>
 <wire x1="129.54" y1="78.74" x2="144.78" y2="78.74" width="0.2032" layer="97"/>
