@@ -42,7 +42,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -151,13 +151,15 @@
 <plain>
 <wire x1="0" y1="0" x2="25.4" y2="0" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
-<wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="19.177" y="-19.177" size="1.778" layer="51" font="vector">Elias Santistevan</text>
 <text x="2.7686" y="1.0668" size="0.762" layer="16" font="vector" ratio="15" rot="MR0">v20</text>
-<dimension x1="25.4" y1="25.4" x2="0" y2="25.4" x3="12.7" y3="28.194" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="25.4" y1="0" x2="25.4" y2="25.4" x3="30.226" y3="12.7" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <text x="4.318" y="-4.572" size="1.778" layer="47" font="vector" ratio="15">Units in Inches</text>
+<dimension x1="25.4" y1="25.4" x2="0" y2="25.4" x3="12.7" y3="30.988" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="2.54" y1="22.86" x2="0" y2="22.86" x3="1.27" y3="27.178" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
+<dimension x1="22.86" y1="22.86" x2="22.86" y2="25.4" x3="28.448" y3="24.13" textsize="1.778" textratio="15" layer="20" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -4713,8 +4715,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="12.446" y="20.701" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="12.446" y="18.415" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$16" library="CS and SI" package="CS0" value="" x="15.0622" y="21.3868" smashed="yes" rot="MR270"/>
-<element name="U$19" library="CS and SI" package="SI1" value="" x="9.779" y="21.0312" smashed="yes" rot="MR270"/>
+<element name="U$16" library="CS and SI" package="CS0" value="" x="17.2212" y="19.5072" smashed="yes" rot="MR0"/>
+<element name="U$19" library="CS and SI" package="SI1" value="" x="11.176" y="19.4818" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -4873,12 +4875,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="9.8806" y1="14.9606" x2="9.8896" y2="14.9516" width="0.254" layer="1"/>
 <via x="9.8806" y="14.9606" extent="1-16" drill="0.381"/>
 <contactref element="JP1" pad="3"/>
-<wire x1="11.43" y1="19.558" x2="11.43" y2="19.3294" width="0.2032" layer="16"/>
 <wire x1="11.43" y1="17.78" x2="11.43" y2="19.558" width="0.254" layer="16"/>
 <wire x1="9.8806" y1="14.9606" x2="9.8806" y2="16.2306" width="0.254" layer="16"/>
 <wire x1="9.8806" y1="16.2306" x2="11.43" y2="17.78" width="0.254" layer="16"/>
 <wire x1="11.43" y1="20.828" x2="11.43" y2="19.558" width="0.254" layer="16"/>
-<wire x1="16.09" y1="19.558" x2="16.002" y2="19.646" width="0.254" layer="1"/>
 <via x="11.43" y="20.828" extent="1-16" drill="0.381"/>
 <wire x1="16.09" y1="19.558" x2="16.09" y2="20.447" width="0.254" layer="1"/>
 <wire x1="16.09" y1="20.447" x2="15.709" y2="20.828" width="0.254" layer="1"/>
@@ -4920,7 +4920,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R8" pad="2"/>
 <wire x1="7.454" y1="12.192" x2="8.4074" y2="12.192" width="0.254" layer="1"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="12.2396" y1="15.8866" x2="12.2428" y2="15.8898" width="0.2032" layer="1"/>
 <via x="12.065" y="17.018" extent="1-16" drill="0.381"/>
 <wire x1="13.462" y1="19.558" x2="13.462" y2="18.9738" width="0.254" layer="16"/>
 <wire x1="13.462" y1="18.9738" x2="12.065" y2="17.5768" width="0.254" layer="16"/>
@@ -5009,9 +5008,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,56a181817e1eaa52"/>
 <approved hash="23,1,bd1e62e063afbc51"/>
 <approved hash="23,1,bd72628c62a3bd5d"/>
-<approved hash="19,16,6348c7b5f28e7471"/>
-<approved hash="19,16,0f538ab2bd891a6a"/>
 <approved hash="3,16,ac44d9c9c1c4b449"/>
+<approved hash="19,16,c960a7bf5b3337f2"/>
+<approved hash="19,16,bb2a9fe9616547b8"/>
 </errors>
 </board>
 </drawing>
