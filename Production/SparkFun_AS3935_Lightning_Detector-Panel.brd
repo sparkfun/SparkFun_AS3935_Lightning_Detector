@@ -11,13 +11,13 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="30" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -44,9 +44,9 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -366,29 +366,29 @@
 <wire x1="103.124" y1="154.94" x2="77.724" y2="154.94" width="0.2032" layer="20"/>
 <dimension x1="100.584" y1="152.4" x2="100.584" y2="154.94" x3="105.918" y3="153.67" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <wire x1="-0.254" y1="-6.858" x2="-0.254" y2="168.148" width="0.381" layer="46"/>
-<text x="-0.254" y="170.434" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="-0.254" y="170.434" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="25.654" y1="-6.858" x2="25.654" y2="168.148" width="0.381" layer="46"/>
-<text x="25.654" y="170.434" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="25.654" y="170.434" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="51.562" y1="-6.858" x2="51.562" y2="168.148" width="0.381" layer="46"/>
-<text x="51.562" y="170.434" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="51.562" y="170.434" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="77.47" y1="-6.858" x2="77.47" y2="168.148" width="0.381" layer="46"/>
-<text x="77.47" y="170.434" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="77.47" y="170.434" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="103.378" y1="-6.858" x2="103.378" y2="168.148" width="0.381" layer="46"/>
-<text x="103.378" y="170.434" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="103.378" y="170.434" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="-0.254" x2="116.332" y2="-0.254" width="0.381" layer="46"/>
-<text x="123.952" y="-0.254" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="123.952" y="-0.254" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="25.654" x2="116.332" y2="25.654" width="0.381" layer="46"/>
-<text x="123.952" y="25.654" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="123.952" y="25.654" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="51.562" x2="116.332" y2="51.562" width="0.381" layer="46"/>
-<text x="123.952" y="51.562" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="123.952" y="51.562" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="77.47" x2="116.332" y2="77.47" width="0.381" layer="46"/>
-<text x="123.952" y="77.47" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="123.952" y="77.47" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="103.378" x2="116.332" y2="103.378" width="0.381" layer="46"/>
-<text x="123.952" y="103.378" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="123.952" y="103.378" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="129.286" x2="116.332" y2="129.286" width="0.381" layer="46"/>
-<text x="123.952" y="129.286" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="123.952" y="129.286" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="155.194" x2="116.332" y2="155.194" width="0.381" layer="46"/>
-<text x="123.952" y="155.194" size="1.778" layer="46" ratio="15" align="center">v-score</text>
+<text x="123.952" y="155.194" size="1.778" layer="46" font="vector" ratio="15" align="center">v-score</text>
 <wire x1="-6.858" y1="-0.508" x2="109.982" y2="-0.508" width="0.254" layer="20"/>
 <wire x1="109.982" y1="-0.508" x2="109.982" y2="-6.858" width="0.254" layer="20"/>
 <wire x1="109.982" y1="-6.858" x2="-6.858" y2="-6.858" width="0.254" layer="20"/>
@@ -4135,149 +4135,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="INT">
-<packages>
-<package name="#INT0">
-<rectangle x1="0.28" y1="0.78" x2="3.52" y2="0.82" layer="21"/>
-<rectangle x1="0.32" y1="0.74" x2="3.52" y2="0.78" layer="21"/>
-<rectangle x1="0.36" y1="0.7" x2="3.52" y2="0.74" layer="21"/>
-<rectangle x1="0.4" y1="0.66" x2="3.52" y2="0.7" layer="21"/>
-<rectangle x1="0.44" y1="0.62" x2="1.12" y2="0.66" layer="21"/>
-<rectangle x1="3.04" y1="0.62" x2="3.52" y2="0.66" layer="21"/>
-<rectangle x1="0.48" y1="0.58" x2="1.08" y2="0.62" layer="21"/>
-<rectangle x1="3.08" y1="0.58" x2="3.52" y2="0.62" layer="21"/>
-<rectangle x1="0.52" y1="0.54" x2="1.08" y2="0.58" layer="21"/>
-<rectangle x1="3.12" y1="0.54" x2="3.52" y2="0.58" layer="21"/>
-<rectangle x1="0.56" y1="0.5" x2="1.08" y2="0.54" layer="21"/>
-<rectangle x1="3.12" y1="0.5" x2="3.52" y2="0.54" layer="21"/>
-<rectangle x1="0.6" y1="0.46" x2="1.08" y2="0.5" layer="21"/>
-<rectangle x1="3.08" y1="0.46" x2="3.52" y2="0.5" layer="21"/>
-<rectangle x1="0.64" y1="0.42" x2="1.12" y2="0.46" layer="21"/>
-<rectangle x1="3.04" y1="0.42" x2="3.52" y2="0.46" layer="21"/>
-<rectangle x1="0.68" y1="0.38" x2="3.52" y2="0.42" layer="21"/>
-<rectangle x1="0.72" y1="0.34" x2="3.52" y2="0.38" layer="21"/>
-<rectangle x1="0.76" y1="0.3" x2="3.52" y2="0.34" layer="21"/>
-<rectangle x1="0.8" y1="0.26" x2="3.52" y2="0.3" layer="21"/>
-<rectangle x1="0.84" y1="0.22" x2="1.16" y2="0.26" layer="21"/>
-<rectangle x1="1.32" y1="0.22" x2="1.48" y2="0.26" layer="21"/>
-<rectangle x1="1.6" y1="0.22" x2="2" y2="0.26" layer="21"/>
-<rectangle x1="2.16" y1="0.22" x2="2.28" y2="0.26" layer="21"/>
-<rectangle x1="3.08" y1="0.22" x2="3.52" y2="0.26" layer="21"/>
-<rectangle x1="0.88" y1="0.18" x2="1.12" y2="0.22" layer="21"/>
-<rectangle x1="1.32" y1="0.18" x2="1.44" y2="0.22" layer="21"/>
-<rectangle x1="1.64" y1="0.18" x2="2" y2="0.22" layer="21"/>
-<rectangle x1="2.2" y1="0.18" x2="2.28" y2="0.22" layer="21"/>
-<rectangle x1="3.12" y1="0.18" x2="3.52" y2="0.22" layer="21"/>
-<rectangle x1="0.92" y1="0.14" x2="1.12" y2="0.18" layer="21"/>
-<rectangle x1="1.32" y1="0.14" x2="1.44" y2="0.18" layer="21"/>
-<rectangle x1="1.68" y1="0.14" x2="2" y2="0.18" layer="21"/>
-<rectangle x1="2.2" y1="0.14" x2="2.28" y2="0.18" layer="21"/>
-<rectangle x1="3.12" y1="0.14" x2="3.52" y2="0.18" layer="21"/>
-<rectangle x1="0.96" y1="0.1" x2="1.12" y2="0.14" layer="21"/>
-<rectangle x1="1.32" y1="0.1" x2="1.44" y2="0.14" layer="21"/>
-<rectangle x1="1.72" y1="0.1" x2="2" y2="0.14" layer="21"/>
-<rectangle x1="2.2" y1="0.1" x2="2.28" y2="0.14" layer="21"/>
-<rectangle x1="3.12" y1="0.1" x2="3.52" y2="0.14" layer="21"/>
-<rectangle x1="0.96" y1="0.06" x2="1.12" y2="0.1" layer="21"/>
-<rectangle x1="1.32" y1="0.06" x2="1.44" y2="0.1" layer="21"/>
-<rectangle x1="1.72" y1="0.06" x2="2" y2="0.1" layer="21"/>
-<rectangle x1="2.2" y1="0.06" x2="2.56" y2="0.1" layer="21"/>
-<rectangle x1="2.8" y1="0.06" x2="3.52" y2="0.1" layer="21"/>
-<rectangle x1="0.96" y1="0.02" x2="1.12" y2="0.06" layer="21"/>
-<rectangle x1="1.32" y1="0.02" x2="1.44" y2="0.06" layer="21"/>
-<rectangle x1="1.76" y1="0.02" x2="2" y2="0.06" layer="21"/>
-<rectangle x1="2.2" y1="0.02" x2="2.6" y2="0.06" layer="21"/>
-<rectangle x1="2.8" y1="0.02" x2="3.52" y2="0.06" layer="21"/>
-<rectangle x1="0.96" y1="-0.02" x2="1.12" y2="0.02" layer="21"/>
-<rectangle x1="1.32" y1="-0.02" x2="1.44" y2="0.02" layer="21"/>
-<rectangle x1="1.8" y1="-0.02" x2="2" y2="0.02" layer="21"/>
-<rectangle x1="2.2" y1="-0.02" x2="2.6" y2="0.02" layer="21"/>
-<rectangle x1="2.8" y1="-0.02" x2="3.52" y2="0.02" layer="21"/>
-<rectangle x1="0.96" y1="-0.06" x2="1.12" y2="-0.02" layer="21"/>
-<rectangle x1="1.32" y1="-0.06" x2="1.44" y2="-0.02" layer="21"/>
-<rectangle x1="1.84" y1="-0.06" x2="2" y2="-0.02" layer="21"/>
-<rectangle x1="2.2" y1="-0.06" x2="2.6" y2="-0.02" layer="21"/>
-<rectangle x1="2.8" y1="-0.06" x2="3.52" y2="-0.02" layer="21"/>
-<rectangle x1="0.96" y1="-0.1" x2="1.12" y2="-0.06" layer="21"/>
-<rectangle x1="1.32" y1="-0.1" x2="1.44" y2="-0.06" layer="21"/>
-<rectangle x1="1.84" y1="-0.1" x2="2" y2="-0.06" layer="21"/>
-<rectangle x1="2.2" y1="-0.1" x2="2.6" y2="-0.06" layer="21"/>
-<rectangle x1="2.8" y1="-0.1" x2="3.52" y2="-0.06" layer="21"/>
-<rectangle x1="0.96" y1="-0.14" x2="1.12" y2="-0.1" layer="21"/>
-<rectangle x1="1.32" y1="-0.14" x2="1.44" y2="-0.1" layer="21"/>
-<rectangle x1="1.88" y1="-0.14" x2="2" y2="-0.1" layer="21"/>
-<rectangle x1="2.2" y1="-0.14" x2="2.6" y2="-0.1" layer="21"/>
-<rectangle x1="2.8" y1="-0.14" x2="3.52" y2="-0.1" layer="21"/>
-<rectangle x1="0.92" y1="-0.18" x2="1.12" y2="-0.14" layer="21"/>
-<rectangle x1="1.32" y1="-0.18" x2="1.44" y2="-0.14" layer="21"/>
-<rectangle x1="1.64" y1="-0.18" x2="1.68" y2="-0.14" layer="21"/>
-<rectangle x1="1.92" y1="-0.18" x2="2" y2="-0.14" layer="21"/>
-<rectangle x1="2.2" y1="-0.18" x2="2.6" y2="-0.14" layer="21"/>
-<rectangle x1="2.8" y1="-0.18" x2="3.52" y2="-0.14" layer="21"/>
-<rectangle x1="0.88" y1="-0.22" x2="1.12" y2="-0.18" layer="21"/>
-<rectangle x1="1.32" y1="-0.22" x2="1.44" y2="-0.18" layer="21"/>
-<rectangle x1="1.64" y1="-0.22" x2="1.72" y2="-0.18" layer="21"/>
-<rectangle x1="1.96" y1="-0.22" x2="2" y2="-0.18" layer="21"/>
-<rectangle x1="2.2" y1="-0.22" x2="2.6" y2="-0.18" layer="21"/>
-<rectangle x1="2.8" y1="-0.22" x2="3.52" y2="-0.18" layer="21"/>
-<rectangle x1="0.84" y1="-0.26" x2="1.12" y2="-0.22" layer="21"/>
-<rectangle x1="1.32" y1="-0.26" x2="1.44" y2="-0.22" layer="21"/>
-<rectangle x1="1.64" y1="-0.26" x2="1.72" y2="-0.22" layer="21"/>
-<rectangle x1="2.2" y1="-0.26" x2="2.6" y2="-0.22" layer="21"/>
-<rectangle x1="2.8" y1="-0.26" x2="3.52" y2="-0.22" layer="21"/>
-<rectangle x1="0.8" y1="-0.3" x2="1.12" y2="-0.26" layer="21"/>
-<rectangle x1="1.32" y1="-0.3" x2="1.44" y2="-0.26" layer="21"/>
-<rectangle x1="1.64" y1="-0.3" x2="1.76" y2="-0.26" layer="21"/>
-<rectangle x1="2.2" y1="-0.3" x2="2.6" y2="-0.26" layer="21"/>
-<rectangle x1="2.8" y1="-0.3" x2="3.52" y2="-0.26" layer="21"/>
-<rectangle x1="0.76" y1="-0.34" x2="1.12" y2="-0.3" layer="21"/>
-<rectangle x1="1.32" y1="-0.34" x2="1.44" y2="-0.3" layer="21"/>
-<rectangle x1="1.64" y1="-0.34" x2="1.8" y2="-0.3" layer="21"/>
-<rectangle x1="2.2" y1="-0.34" x2="2.6" y2="-0.3" layer="21"/>
-<rectangle x1="2.8" y1="-0.34" x2="3.52" y2="-0.3" layer="21"/>
-<rectangle x1="0.72" y1="-0.38" x2="1.12" y2="-0.34" layer="21"/>
-<rectangle x1="1.32" y1="-0.38" x2="1.44" y2="-0.34" layer="21"/>
-<rectangle x1="1.64" y1="-0.38" x2="1.84" y2="-0.34" layer="21"/>
-<rectangle x1="2.2" y1="-0.38" x2="2.6" y2="-0.34" layer="21"/>
-<rectangle x1="2.8" y1="-0.38" x2="3.52" y2="-0.34" layer="21"/>
-<rectangle x1="0.68" y1="-0.42" x2="1.12" y2="-0.38" layer="21"/>
-<rectangle x1="1.32" y1="-0.42" x2="1.44" y2="-0.38" layer="21"/>
-<rectangle x1="1.64" y1="-0.42" x2="1.84" y2="-0.38" layer="21"/>
-<rectangle x1="2.2" y1="-0.42" x2="2.6" y2="-0.38" layer="21"/>
-<rectangle x1="2.8" y1="-0.42" x2="3.52" y2="-0.38" layer="21"/>
-<rectangle x1="0.64" y1="-0.46" x2="1.12" y2="-0.42" layer="21"/>
-<rectangle x1="1.32" y1="-0.46" x2="1.44" y2="-0.42" layer="21"/>
-<rectangle x1="1.64" y1="-0.46" x2="1.88" y2="-0.42" layer="21"/>
-<rectangle x1="2.2" y1="-0.46" x2="2.6" y2="-0.42" layer="21"/>
-<rectangle x1="2.8" y1="-0.46" x2="3.52" y2="-0.42" layer="21"/>
-<rectangle x1="0.6" y1="-0.5" x2="1.12" y2="-0.46" layer="21"/>
-<rectangle x1="1.32" y1="-0.5" x2="1.44" y2="-0.46" layer="21"/>
-<rectangle x1="1.64" y1="-0.5" x2="1.92" y2="-0.46" layer="21"/>
-<rectangle x1="2.2" y1="-0.5" x2="2.6" y2="-0.46" layer="21"/>
-<rectangle x1="2.8" y1="-0.5" x2="3.52" y2="-0.46" layer="21"/>
-<rectangle x1="0.56" y1="-0.54" x2="1.12" y2="-0.5" layer="21"/>
-<rectangle x1="1.32" y1="-0.54" x2="1.44" y2="-0.5" layer="21"/>
-<rectangle x1="1.64" y1="-0.54" x2="1.96" y2="-0.5" layer="21"/>
-<rectangle x1="2.2" y1="-0.54" x2="2.6" y2="-0.5" layer="21"/>
-<rectangle x1="2.8" y1="-0.54" x2="3.52" y2="-0.5" layer="21"/>
-<rectangle x1="0.52" y1="-0.58" x2="1.12" y2="-0.54" layer="21"/>
-<rectangle x1="1.32" y1="-0.58" x2="1.44" y2="-0.54" layer="21"/>
-<rectangle x1="1.64" y1="-0.58" x2="1.96" y2="-0.54" layer="21"/>
-<rectangle x1="2.2" y1="-0.58" x2="2.6" y2="-0.54" layer="21"/>
-<rectangle x1="2.8" y1="-0.58" x2="3.52" y2="-0.54" layer="21"/>
-<rectangle x1="0.48" y1="-0.62" x2="1.16" y2="-0.58" layer="21"/>
-<rectangle x1="1.32" y1="-0.62" x2="1.44" y2="-0.58" layer="21"/>
-<rectangle x1="1.6" y1="-0.62" x2="2" y2="-0.58" layer="21"/>
-<rectangle x1="2.16" y1="-0.62" x2="2.6" y2="-0.58" layer="21"/>
-<rectangle x1="2.76" y1="-0.62" x2="3.52" y2="-0.58" layer="21"/>
-<rectangle x1="0.44" y1="-0.66" x2="3.52" y2="-0.62" layer="21"/>
-<rectangle x1="0.4" y1="-0.7" x2="3.52" y2="-0.66" layer="21"/>
-<rectangle x1="0.36" y1="-0.74" x2="3.52" y2="-0.7" layer="21"/>
-<rectangle x1="0.32" y1="-0.78" x2="3.52" y2="-0.74" layer="21"/>
-<rectangle x1="0.28" y1="-0.82" x2="3.52" y2="-0.78" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="i2c_EN">
 <packages>
 <package name="I#C_EN0">
@@ -4619,6 +4476,159 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="buzzard_labels">
+<packages>
+<package name="INT0">
+<rectangle x1="0.09" y1="0.58" x2="2.82" y2="0.61" layer="21"/>
+<rectangle x1="0.12" y1="0.55" x2="2.82" y2="0.58" layer="21"/>
+<rectangle x1="0.15" y1="0.53" x2="2.82" y2="0.55" layer="21"/>
+<rectangle x1="0.18" y1="0.49" x2="2.82" y2="0.53" layer="21"/>
+<rectangle x1="0.21" y1="0.46" x2="2.82" y2="0.49" layer="21"/>
+<rectangle x1="0.24" y1="0.43" x2="2.82" y2="0.46" layer="21"/>
+<rectangle x1="0.27" y1="0.41" x2="2.82" y2="0.43" layer="21"/>
+<rectangle x1="0.3" y1="0.38" x2="2.82" y2="0.41" layer="21"/>
+<rectangle x1="0.33" y1="0.34" x2="0.75" y2="0.38" layer="21"/>
+<rectangle x1="0.9" y1="0.34" x2="1.02" y2="0.38" layer="21"/>
+<rectangle x1="1.17" y1="0.34" x2="1.53" y2="0.38" layer="21"/>
+<rectangle x1="1.68" y1="0.34" x2="1.77" y2="0.38" layer="21"/>
+<rectangle x1="2.49" y1="0.34" x2="2.82" y2="0.38" layer="21"/>
+<rectangle x1="0.36" y1="0.31" x2="0.72" y2="0.34" layer="21"/>
+<rectangle x1="0.9" y1="0.31" x2="1.02" y2="0.34" layer="21"/>
+<rectangle x1="1.2" y1="0.31" x2="1.5" y2="0.34" layer="21"/>
+<rectangle x1="1.68" y1="0.31" x2="1.77" y2="0.34" layer="21"/>
+<rectangle x1="2.52" y1="0.31" x2="2.82" y2="0.34" layer="21"/>
+<rectangle x1="0.39" y1="0.29" x2="0.72" y2="0.32" layer="21"/>
+<rectangle x1="0.93" y1="0.29" x2="1.02" y2="0.32" layer="21"/>
+<rectangle x1="1.23" y1="0.29" x2="1.5" y2="0.32" layer="21"/>
+<rectangle x1="1.68" y1="0.29" x2="1.77" y2="0.32" layer="21"/>
+<rectangle x1="2.52" y1="0.29" x2="2.82" y2="0.32" layer="21"/>
+<rectangle x1="0.42" y1="0.26" x2="0.72" y2="0.29" layer="21"/>
+<rectangle x1="0.93" y1="0.26" x2="1.02" y2="0.29" layer="21"/>
+<rectangle x1="1.26" y1="0.26" x2="1.5" y2="0.29" layer="21"/>
+<rectangle x1="1.68" y1="0.26" x2="1.77" y2="0.29" layer="21"/>
+<rectangle x1="2.52" y1="0.26" x2="2.82" y2="0.29" layer="21"/>
+<rectangle x1="0.45" y1="0.22" x2="0.72" y2="0.26" layer="21"/>
+<rectangle x1="0.93" y1="0.22" x2="1.02" y2="0.26" layer="21"/>
+<rectangle x1="1.26" y1="0.22" x2="1.5" y2="0.26" layer="21"/>
+<rectangle x1="1.68" y1="0.22" x2="1.8" y2="0.26" layer="21"/>
+<rectangle x1="2.49" y1="0.22" x2="2.82" y2="0.26" layer="21"/>
+<rectangle x1="0.48" y1="0.19" x2="0.72" y2="0.22" layer="21"/>
+<rectangle x1="0.93" y1="0.19" x2="1.02" y2="0.22" layer="21"/>
+<rectangle x1="1.29" y1="0.19" x2="1.5" y2="0.22" layer="21"/>
+<rectangle x1="1.68" y1="0.19" x2="2.04" y2="0.22" layer="21"/>
+<rectangle x1="2.22" y1="0.19" x2="2.82" y2="0.22" layer="21"/>
+<rectangle x1="0.51" y1="0.17" x2="0.72" y2="0.2" layer="21"/>
+<rectangle x1="0.93" y1="0.17" x2="1.02" y2="0.2" layer="21"/>
+<rectangle x1="1.32" y1="0.17" x2="1.5" y2="0.2" layer="21"/>
+<rectangle x1="1.68" y1="0.17" x2="2.04" y2="0.2" layer="21"/>
+<rectangle x1="2.22" y1="0.17" x2="2.82" y2="0.2" layer="21"/>
+<rectangle x1="0.54" y1="0.14" x2="0.72" y2="0.17" layer="21"/>
+<rectangle x1="0.93" y1="0.14" x2="1.02" y2="0.17" layer="21"/>
+<rectangle x1="1.35" y1="0.14" x2="1.5" y2="0.17" layer="21"/>
+<rectangle x1="1.68" y1="0.14" x2="2.04" y2="0.17" layer="21"/>
+<rectangle x1="2.22" y1="0.14" x2="2.82" y2="0.17" layer="21"/>
+<rectangle x1="0.57" y1="0.1" x2="0.72" y2="0.14" layer="21"/>
+<rectangle x1="0.93" y1="0.1" x2="1.02" y2="0.14" layer="21"/>
+<rectangle x1="1.35" y1="0.1" x2="1.5" y2="0.14" layer="21"/>
+<rectangle x1="1.68" y1="0.1" x2="2.04" y2="0.14" layer="21"/>
+<rectangle x1="2.22" y1="0.1" x2="2.82" y2="0.14" layer="21"/>
+<rectangle x1="0.6" y1="0.07" x2="0.72" y2="0.1" layer="21"/>
+<rectangle x1="0.93" y1="0.07" x2="1.02" y2="0.1" layer="21"/>
+<rectangle x1="1.38" y1="0.07" x2="1.5" y2="0.1" layer="21"/>
+<rectangle x1="1.68" y1="0.07" x2="2.04" y2="0.1" layer="21"/>
+<rectangle x1="2.22" y1="0.07" x2="2.82" y2="0.1" layer="21"/>
+<rectangle x1="0.6" y1="0.04" x2="0.72" y2="0.07" layer="21"/>
+<rectangle x1="0.93" y1="0.04" x2="1.02" y2="0.07" layer="21"/>
+<rectangle x1="1.41" y1="0.04" x2="1.5" y2="0.07" layer="21"/>
+<rectangle x1="1.68" y1="0.04" x2="2.04" y2="0.07" layer="21"/>
+<rectangle x1="2.22" y1="0.04" x2="2.82" y2="0.07" layer="21"/>
+<rectangle x1="0.6" y1="0.02" x2="0.72" y2="0.05" layer="21"/>
+<rectangle x1="0.93" y1="0.02" x2="1.02" y2="0.05" layer="21"/>
+<rectangle x1="1.44" y1="0.02" x2="1.5" y2="0.05" layer="21"/>
+<rectangle x1="1.68" y1="0.02" x2="2.04" y2="0.05" layer="21"/>
+<rectangle x1="2.22" y1="0.02" x2="2.82" y2="0.05" layer="21"/>
+<rectangle x1="0.6" y1="-0.02" x2="0.72" y2="0.02" layer="21"/>
+<rectangle x1="0.93" y1="-0.02" x2="1.02" y2="0.02" layer="21"/>
+<rectangle x1="1.2" y1="-0.02" x2="1.23" y2="0.02" layer="21"/>
+<rectangle x1="1.44" y1="-0.02" x2="1.5" y2="0.02" layer="21"/>
+<rectangle x1="1.68" y1="-0.02" x2="2.04" y2="0.02" layer="21"/>
+<rectangle x1="2.22" y1="-0.02" x2="2.82" y2="0.02" layer="21"/>
+<rectangle x1="0.6" y1="-0.05" x2="0.72" y2="-0.02" layer="21"/>
+<rectangle x1="0.93" y1="-0.05" x2="1.02" y2="-0.02" layer="21"/>
+<rectangle x1="1.2" y1="-0.05" x2="1.26" y2="-0.02" layer="21"/>
+<rectangle x1="1.47" y1="-0.05" x2="1.5" y2="-0.02" layer="21"/>
+<rectangle x1="1.68" y1="-0.05" x2="2.04" y2="-0.02" layer="21"/>
+<rectangle x1="2.22" y1="-0.05" x2="2.82" y2="-0.02" layer="21"/>
+<rectangle x1="0.6" y1="-0.07" x2="0.72" y2="-0.04" layer="21"/>
+<rectangle x1="0.93" y1="-0.07" x2="1.02" y2="-0.04" layer="21"/>
+<rectangle x1="1.2" y1="-0.07" x2="1.29" y2="-0.04" layer="21"/>
+<rectangle x1="1.68" y1="-0.07" x2="2.04" y2="-0.04" layer="21"/>
+<rectangle x1="2.22" y1="-0.07" x2="2.82" y2="-0.04" layer="21"/>
+<rectangle x1="0.6" y1="-0.1" x2="0.72" y2="-0.07" layer="21"/>
+<rectangle x1="0.93" y1="-0.1" x2="1.02" y2="-0.07" layer="21"/>
+<rectangle x1="1.2" y1="-0.1" x2="1.29" y2="-0.07" layer="21"/>
+<rectangle x1="1.68" y1="-0.1" x2="2.04" y2="-0.07" layer="21"/>
+<rectangle x1="2.22" y1="-0.1" x2="2.82" y2="-0.07" layer="21"/>
+<rectangle x1="0.57" y1="-0.14" x2="0.72" y2="-0.1" layer="21"/>
+<rectangle x1="0.93" y1="-0.14" x2="1.02" y2="-0.1" layer="21"/>
+<rectangle x1="1.2" y1="-0.14" x2="1.32" y2="-0.1" layer="21"/>
+<rectangle x1="1.68" y1="-0.14" x2="2.04" y2="-0.1" layer="21"/>
+<rectangle x1="2.22" y1="-0.14" x2="2.82" y2="-0.1" layer="21"/>
+<rectangle x1="0.54" y1="-0.17" x2="0.72" y2="-0.14" layer="21"/>
+<rectangle x1="0.93" y1="-0.17" x2="1.02" y2="-0.14" layer="21"/>
+<rectangle x1="1.2" y1="-0.17" x2="1.35" y2="-0.14" layer="21"/>
+<rectangle x1="1.68" y1="-0.17" x2="2.04" y2="-0.14" layer="21"/>
+<rectangle x1="2.22" y1="-0.17" x2="2.82" y2="-0.14" layer="21"/>
+<rectangle x1="0.51" y1="-0.2" x2="0.72" y2="-0.17" layer="21"/>
+<rectangle x1="0.93" y1="-0.2" x2="1.02" y2="-0.17" layer="21"/>
+<rectangle x1="1.2" y1="-0.2" x2="1.38" y2="-0.17" layer="21"/>
+<rectangle x1="1.68" y1="-0.2" x2="2.04" y2="-0.17" layer="21"/>
+<rectangle x1="2.22" y1="-0.2" x2="2.82" y2="-0.17" layer="21"/>
+<rectangle x1="0.48" y1="-0.22" x2="0.72" y2="-0.19" layer="21"/>
+<rectangle x1="0.93" y1="-0.22" x2="1.02" y2="-0.19" layer="21"/>
+<rectangle x1="1.2" y1="-0.22" x2="1.38" y2="-0.19" layer="21"/>
+<rectangle x1="1.68" y1="-0.22" x2="2.04" y2="-0.19" layer="21"/>
+<rectangle x1="2.22" y1="-0.22" x2="2.82" y2="-0.19" layer="21"/>
+<rectangle x1="0.45" y1="-0.26" x2="0.72" y2="-0.22" layer="21"/>
+<rectangle x1="0.93" y1="-0.26" x2="1.02" y2="-0.22" layer="21"/>
+<rectangle x1="1.2" y1="-0.26" x2="1.41" y2="-0.22" layer="21"/>
+<rectangle x1="1.68" y1="-0.26" x2="2.04" y2="-0.22" layer="21"/>
+<rectangle x1="2.22" y1="-0.26" x2="2.82" y2="-0.22" layer="21"/>
+<rectangle x1="0.42" y1="-0.29" x2="0.72" y2="-0.26" layer="21"/>
+<rectangle x1="0.93" y1="-0.29" x2="1.02" y2="-0.26" layer="21"/>
+<rectangle x1="1.2" y1="-0.29" x2="1.44" y2="-0.26" layer="21"/>
+<rectangle x1="1.68" y1="-0.29" x2="2.04" y2="-0.26" layer="21"/>
+<rectangle x1="2.22" y1="-0.29" x2="2.82" y2="-0.26" layer="21"/>
+<rectangle x1="0.39" y1="-0.31" x2="0.72" y2="-0.28" layer="21"/>
+<rectangle x1="0.93" y1="-0.31" x2="1.02" y2="-0.28" layer="21"/>
+<rectangle x1="1.2" y1="-0.31" x2="1.47" y2="-0.28" layer="21"/>
+<rectangle x1="1.68" y1="-0.31" x2="2.04" y2="-0.28" layer="21"/>
+<rectangle x1="2.22" y1="-0.31" x2="2.82" y2="-0.28" layer="21"/>
+<rectangle x1="0.36" y1="-0.34" x2="0.72" y2="-0.31" layer="21"/>
+<rectangle x1="0.93" y1="-0.34" x2="1.02" y2="-0.31" layer="21"/>
+<rectangle x1="1.2" y1="-0.34" x2="1.47" y2="-0.31" layer="21"/>
+<rectangle x1="1.68" y1="-0.34" x2="2.04" y2="-0.31" layer="21"/>
+<rectangle x1="2.22" y1="-0.34" x2="2.82" y2="-0.31" layer="21"/>
+<rectangle x1="0.33" y1="-0.38" x2="0.75" y2="-0.34" layer="21"/>
+<rectangle x1="0.9" y1="-0.38" x2="1.02" y2="-0.34" layer="21"/>
+<rectangle x1="1.2" y1="-0.38" x2="1.5" y2="-0.34" layer="21"/>
+<rectangle x1="1.68" y1="-0.38" x2="2.04" y2="-0.34" layer="21"/>
+<rectangle x1="2.22" y1="-0.38" x2="2.82" y2="-0.34" layer="21"/>
+<rectangle x1="0.3" y1="-0.41" x2="0.75" y2="-0.38" layer="21"/>
+<rectangle x1="0.9" y1="-0.41" x2="1.02" y2="-0.38" layer="21"/>
+<rectangle x1="1.17" y1="-0.41" x2="1.53" y2="-0.38" layer="21"/>
+<rectangle x1="1.65" y1="-0.41" x2="2.07" y2="-0.38" layer="21"/>
+<rectangle x1="2.19" y1="-0.41" x2="2.82" y2="-0.38" layer="21"/>
+<rectangle x1="0.27" y1="-0.44" x2="2.82" y2="-0.41" layer="21"/>
+<rectangle x1="0.24" y1="-0.47" x2="2.82" y2="-0.44" layer="21"/>
+<rectangle x1="0.21" y1="-0.5" x2="2.82" y2="-0.47" layer="21"/>
+<rectangle x1="0.18" y1="-0.52" x2="2.82" y2="-0.49" layer="21"/>
+<rectangle x1="0.15" y1="-0.55" x2="2.82" y2="-0.52" layer="21"/>
+<rectangle x1="0.12" y1="-0.58" x2="2.82" y2="-0.55" layer="21"/>
+<rectangle x1="0.09" y1="-0.61" x2="2.82" y2="-0.58" layer="21"/>
+</package>
+</packages>
+</library>
 <library name="SparkFun-Retired">
 <description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
 In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
@@ -4949,8 +4959,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$8" library="Labels" package="SCK-(]-03" value="" x="15.2908" y="5.0546" smashed="yes" rot="MR270"/>
 <element name="U$9" library="Labels" package="MISO-(]-03" value="" x="17.78" y="5.6388" smashed="yes" rot="MR270"/>
 <element name="U$11" library="Labels" package="MOSI-(]-03" value="" x="20.3708" y="5.6642" smashed="yes" rot="MR270"/>
-<element name="U$13" library="INT" package="#INT0" value="" x="10.1854" y="5.5118" smashed="yes" rot="R270"/>
-<element name="U$14" library="INT" package="#INT0" value="" x="10.1854" y="5.5118" smashed="yes" rot="MR270"/>
 <element name="U$15" library="DataLines" package="SPI1" value="" x="21.082" y="7.112" smashed="yes" rot="MR0"/>
 <element name="U$17" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="21.6916" smashed="yes" rot="MR0"/>
 <element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="12.446" y="19.558" smashed="yes" rot="MR0">
@@ -4959,6 +4967,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="U$16" library="CS and SI" package="CS0" value="" x="17.2212" y="19.5072" smashed="yes" rot="MR0"/>
 <element name="U$19" library="CS and SI" package="SI1" value="" x="11.176" y="19.4818" smashed="yes" rot="MR0"/>
+<element name="U$13" library="buzzard_labels" package="INT0" value="" x="10.1346" y="4.8514" smashed="yes" rot="R270"/>
+<element name="U$14" library="buzzard_labels" package="INT0" value="" x="10.1346" y="4.8514" smashed="yes" rot="MR270"/>
 <element name="R9" library="SparkFun-Resistors" package="0603" value="10k" x="40.1574" y="7.5438" smashed="yes">
 <attribute name="NAME" x="40.1574" y="8.3058" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="40.1574" y="7.5438" size="1.778" layer="27" display="off"/>
@@ -5086,16 +5096,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$50" library="Labels" package="SCK-(]-03" value="" x="41.1988" y="5.0546" smashed="yes" rot="MR270"/>
 <element name="U$51" library="Labels" package="MISO-(]-03" value="" x="43.688" y="5.6388" smashed="yes" rot="MR270"/>
 <element name="U$52" library="Labels" package="MOSI-(]-03" value="" x="46.2788" y="5.6642" smashed="yes" rot="MR270"/>
-<element name="U$53" library="INT" package="#INT0" value="" x="36.0934" y="5.5118" smashed="yes" rot="R270"/>
-<element name="U$54" library="INT" package="#INT0" value="" x="36.0934" y="5.5118" smashed="yes" rot="MR270"/>
-<element name="U$55" library="DataLines" package="SPI1" value="" x="46.99" y="7.112" smashed="yes" rot="MR0"/>
-<element name="U$56" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="21.6916" smashed="yes" rot="MR0"/>
+<element name="U$53" library="DataLines" package="SPI1" value="" x="46.99" y="7.112" smashed="yes" rot="MR0"/>
+<element name="U$54" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="21.6916" smashed="yes" rot="MR0"/>
 <element name="JP6" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="38.354" y="19.558" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.354" y="20.701" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="38.354" y="18.415" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$57" library="CS and SI" package="CS0" value="" x="43.1292" y="19.5072" smashed="yes" rot="MR0"/>
-<element name="U$58" library="CS and SI" package="SI1" value="" x="37.084" y="19.4818" smashed="yes" rot="MR0"/>
+<element name="U$55" library="CS and SI" package="CS0" value="" x="43.1292" y="19.5072" smashed="yes" rot="MR0"/>
+<element name="U$56" library="CS and SI" package="SI1" value="" x="37.084" y="19.4818" smashed="yes" rot="MR0"/>
+<element name="U$57" library="buzzard_labels" package="INT0" value="" x="36.0426" y="4.8514" smashed="yes" rot="R270"/>
+<element name="U$58" library="buzzard_labels" package="INT0" value="" x="36.0426" y="4.8514" smashed="yes" rot="MR270"/>
 <element name="R17" library="SparkFun-Resistors" package="0603" value="10k" x="66.0654" y="7.5438" smashed="yes">
 <attribute name="NAME" x="66.0654" y="8.3058" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="66.0654" y="7.5438" size="1.778" layer="27" display="off"/>
@@ -5223,16 +5233,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$79" library="Labels" package="SCK-(]-03" value="" x="67.1068" y="5.0546" smashed="yes" rot="MR270"/>
 <element name="U$80" library="Labels" package="MISO-(]-03" value="" x="69.596" y="5.6388" smashed="yes" rot="MR270"/>
 <element name="U$81" library="Labels" package="MOSI-(]-03" value="" x="72.1868" y="5.6642" smashed="yes" rot="MR270"/>
-<element name="U$82" library="INT" package="#INT0" value="" x="62.0014" y="5.5118" smashed="yes" rot="R270"/>
-<element name="U$83" library="INT" package="#INT0" value="" x="62.0014" y="5.5118" smashed="yes" rot="MR270"/>
-<element name="U$84" library="DataLines" package="SPI1" value="" x="72.898" y="7.112" smashed="yes" rot="MR0"/>
-<element name="U$85" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="21.6916" smashed="yes" rot="MR0"/>
+<element name="U$82" library="DataLines" package="SPI1" value="" x="72.898" y="7.112" smashed="yes" rot="MR0"/>
+<element name="U$83" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="21.6916" smashed="yes" rot="MR0"/>
 <element name="JP9" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="64.262" y="19.558" smashed="yes" rot="MR0">
 <attribute name="NAME" x="64.262" y="20.701" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="64.262" y="18.415" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$86" library="CS and SI" package="CS0" value="" x="69.0372" y="19.5072" smashed="yes" rot="MR0"/>
-<element name="U$87" library="CS and SI" package="SI1" value="" x="62.992" y="19.4818" smashed="yes" rot="MR0"/>
+<element name="U$84" library="CS and SI" package="CS0" value="" x="69.0372" y="19.5072" smashed="yes" rot="MR0"/>
+<element name="U$85" library="CS and SI" package="SI1" value="" x="62.992" y="19.4818" smashed="yes" rot="MR0"/>
+<element name="U$86" library="buzzard_labels" package="INT0" value="" x="61.9506" y="4.8514" smashed="yes" rot="R270"/>
+<element name="U$87" library="buzzard_labels" package="INT0" value="" x="61.9506" y="4.8514" smashed="yes" rot="MR270"/>
 <element name="R25" library="SparkFun-Resistors" package="0603" value="10k" x="91.9734" y="7.5438" smashed="yes">
 <attribute name="NAME" x="91.9734" y="8.3058" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="91.9734" y="7.5438" size="1.778" layer="27" display="off"/>
@@ -5360,16 +5370,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$108" library="Labels" package="SCK-(]-03" value="" x="93.0148" y="5.0546" smashed="yes" rot="MR270"/>
 <element name="U$109" library="Labels" package="MISO-(]-03" value="" x="95.504" y="5.6388" smashed="yes" rot="MR270"/>
 <element name="U$110" library="Labels" package="MOSI-(]-03" value="" x="98.0948" y="5.6642" smashed="yes" rot="MR270"/>
-<element name="U$111" library="INT" package="#INT0" value="" x="87.9094" y="5.5118" smashed="yes" rot="R270"/>
-<element name="U$112" library="INT" package="#INT0" value="" x="87.9094" y="5.5118" smashed="yes" rot="MR270"/>
-<element name="U$113" library="DataLines" package="SPI1" value="" x="98.806" y="7.112" smashed="yes" rot="MR0"/>
-<element name="U$114" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="21.6916" smashed="yes" rot="MR0"/>
+<element name="U$111" library="DataLines" package="SPI1" value="" x="98.806" y="7.112" smashed="yes" rot="MR0"/>
+<element name="U$112" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="21.6916" smashed="yes" rot="MR0"/>
 <element name="JP12" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="90.17" y="19.558" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="20.701" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="90.17" y="18.415" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$115" library="CS and SI" package="CS0" value="" x="94.9452" y="19.5072" smashed="yes" rot="MR0"/>
-<element name="U$116" library="CS and SI" package="SI1" value="" x="88.9" y="19.4818" smashed="yes" rot="MR0"/>
+<element name="U$113" library="CS and SI" package="CS0" value="" x="94.9452" y="19.5072" smashed="yes" rot="MR0"/>
+<element name="U$114" library="CS and SI" package="SI1" value="" x="88.9" y="19.4818" smashed="yes" rot="MR0"/>
+<element name="U$115" library="buzzard_labels" package="INT0" value="" x="87.8586" y="4.8514" smashed="yes" rot="R270"/>
+<element name="U$116" library="buzzard_labels" package="INT0" value="" x="87.8586" y="4.8514" smashed="yes" rot="MR270"/>
 <element name="R33" library="SparkFun-Resistors" package="0603" value="10k" x="14.2494" y="33.4518" smashed="yes">
 <attribute name="NAME" x="14.2494" y="34.2138" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="14.2494" y="33.4518" size="1.778" layer="27" display="off"/>
@@ -5497,16 +5507,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$137" library="Labels" package="SCK-(]-03" value="" x="15.2908" y="30.9626" smashed="yes" rot="MR270"/>
 <element name="U$138" library="Labels" package="MISO-(]-03" value="" x="17.78" y="31.5468" smashed="yes" rot="MR270"/>
 <element name="U$139" library="Labels" package="MOSI-(]-03" value="" x="20.3708" y="31.5722" smashed="yes" rot="MR270"/>
-<element name="U$140" library="INT" package="#INT0" value="" x="10.1854" y="31.4198" smashed="yes" rot="R270"/>
-<element name="U$141" library="INT" package="#INT0" value="" x="10.1854" y="31.4198" smashed="yes" rot="MR270"/>
-<element name="U$142" library="DataLines" package="SPI1" value="" x="21.082" y="33.02" smashed="yes" rot="MR0"/>
-<element name="U$143" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="47.5996" smashed="yes" rot="MR0"/>
+<element name="U$140" library="DataLines" package="SPI1" value="" x="21.082" y="33.02" smashed="yes" rot="MR0"/>
+<element name="U$141" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="47.5996" smashed="yes" rot="MR0"/>
 <element name="JP15" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="12.446" y="45.466" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.446" y="46.609" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="12.446" y="44.323" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$144" library="CS and SI" package="CS0" value="" x="17.2212" y="45.4152" smashed="yes" rot="MR0"/>
-<element name="U$145" library="CS and SI" package="SI1" value="" x="11.176" y="45.3898" smashed="yes" rot="MR0"/>
+<element name="U$142" library="CS and SI" package="CS0" value="" x="17.2212" y="45.4152" smashed="yes" rot="MR0"/>
+<element name="U$143" library="CS and SI" package="SI1" value="" x="11.176" y="45.3898" smashed="yes" rot="MR0"/>
+<element name="U$144" library="buzzard_labels" package="INT0" value="" x="10.1346" y="30.7594" smashed="yes" rot="R270"/>
+<element name="U$145" library="buzzard_labels" package="INT0" value="" x="10.1346" y="30.7594" smashed="yes" rot="MR270"/>
 <element name="R41" library="SparkFun-Resistors" package="0603" value="10k" x="40.1574" y="33.4518" smashed="yes">
 <attribute name="NAME" x="40.1574" y="34.2138" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="40.1574" y="33.4518" size="1.778" layer="27" display="off"/>
@@ -5634,16 +5644,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$166" library="Labels" package="SCK-(]-03" value="" x="41.1988" y="30.9626" smashed="yes" rot="MR270"/>
 <element name="U$167" library="Labels" package="MISO-(]-03" value="" x="43.688" y="31.5468" smashed="yes" rot="MR270"/>
 <element name="U$168" library="Labels" package="MOSI-(]-03" value="" x="46.2788" y="31.5722" smashed="yes" rot="MR270"/>
-<element name="U$169" library="INT" package="#INT0" value="" x="36.0934" y="31.4198" smashed="yes" rot="R270"/>
-<element name="U$170" library="INT" package="#INT0" value="" x="36.0934" y="31.4198" smashed="yes" rot="MR270"/>
-<element name="U$171" library="DataLines" package="SPI1" value="" x="46.99" y="33.02" smashed="yes" rot="MR0"/>
-<element name="U$172" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="47.5996" smashed="yes" rot="MR0"/>
+<element name="U$169" library="DataLines" package="SPI1" value="" x="46.99" y="33.02" smashed="yes" rot="MR0"/>
+<element name="U$170" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="47.5996" smashed="yes" rot="MR0"/>
 <element name="JP18" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="38.354" y="45.466" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.354" y="46.609" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="38.354" y="44.323" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$173" library="CS and SI" package="CS0" value="" x="43.1292" y="45.4152" smashed="yes" rot="MR0"/>
-<element name="U$174" library="CS and SI" package="SI1" value="" x="37.084" y="45.3898" smashed="yes" rot="MR0"/>
+<element name="U$171" library="CS and SI" package="CS0" value="" x="43.1292" y="45.4152" smashed="yes" rot="MR0"/>
+<element name="U$172" library="CS and SI" package="SI1" value="" x="37.084" y="45.3898" smashed="yes" rot="MR0"/>
+<element name="U$173" library="buzzard_labels" package="INT0" value="" x="36.0426" y="30.7594" smashed="yes" rot="R270"/>
+<element name="U$174" library="buzzard_labels" package="INT0" value="" x="36.0426" y="30.7594" smashed="yes" rot="MR270"/>
 <element name="R49" library="SparkFun-Resistors" package="0603" value="10k" x="66.0654" y="33.4518" smashed="yes">
 <attribute name="NAME" x="66.0654" y="34.2138" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="66.0654" y="33.4518" size="1.778" layer="27" display="off"/>
@@ -5771,16 +5781,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$195" library="Labels" package="SCK-(]-03" value="" x="67.1068" y="30.9626" smashed="yes" rot="MR270"/>
 <element name="U$196" library="Labels" package="MISO-(]-03" value="" x="69.596" y="31.5468" smashed="yes" rot="MR270"/>
 <element name="U$197" library="Labels" package="MOSI-(]-03" value="" x="72.1868" y="31.5722" smashed="yes" rot="MR270"/>
-<element name="U$198" library="INT" package="#INT0" value="" x="62.0014" y="31.4198" smashed="yes" rot="R270"/>
-<element name="U$199" library="INT" package="#INT0" value="" x="62.0014" y="31.4198" smashed="yes" rot="MR270"/>
-<element name="U$200" library="DataLines" package="SPI1" value="" x="72.898" y="33.02" smashed="yes" rot="MR0"/>
-<element name="U$201" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="47.5996" smashed="yes" rot="MR0"/>
+<element name="U$198" library="DataLines" package="SPI1" value="" x="72.898" y="33.02" smashed="yes" rot="MR0"/>
+<element name="U$199" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="47.5996" smashed="yes" rot="MR0"/>
 <element name="JP21" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="64.262" y="45.466" smashed="yes" rot="MR0">
 <attribute name="NAME" x="64.262" y="46.609" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="64.262" y="44.323" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$202" library="CS and SI" package="CS0" value="" x="69.0372" y="45.4152" smashed="yes" rot="MR0"/>
-<element name="U$203" library="CS and SI" package="SI1" value="" x="62.992" y="45.3898" smashed="yes" rot="MR0"/>
+<element name="U$200" library="CS and SI" package="CS0" value="" x="69.0372" y="45.4152" smashed="yes" rot="MR0"/>
+<element name="U$201" library="CS and SI" package="SI1" value="" x="62.992" y="45.3898" smashed="yes" rot="MR0"/>
+<element name="U$202" library="buzzard_labels" package="INT0" value="" x="61.9506" y="30.7594" smashed="yes" rot="R270"/>
+<element name="U$203" library="buzzard_labels" package="INT0" value="" x="61.9506" y="30.7594" smashed="yes" rot="MR270"/>
 <element name="R57" library="SparkFun-Resistors" package="0603" value="10k" x="91.9734" y="33.4518" smashed="yes">
 <attribute name="NAME" x="91.9734" y="34.2138" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="91.9734" y="33.4518" size="1.778" layer="27" display="off"/>
@@ -5908,16 +5918,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$224" library="Labels" package="SCK-(]-03" value="" x="93.0148" y="30.9626" smashed="yes" rot="MR270"/>
 <element name="U$225" library="Labels" package="MISO-(]-03" value="" x="95.504" y="31.5468" smashed="yes" rot="MR270"/>
 <element name="U$226" library="Labels" package="MOSI-(]-03" value="" x="98.0948" y="31.5722" smashed="yes" rot="MR270"/>
-<element name="U$227" library="INT" package="#INT0" value="" x="87.9094" y="31.4198" smashed="yes" rot="R270"/>
-<element name="U$228" library="INT" package="#INT0" value="" x="87.9094" y="31.4198" smashed="yes" rot="MR270"/>
-<element name="U$229" library="DataLines" package="SPI1" value="" x="98.806" y="33.02" smashed="yes" rot="MR0"/>
-<element name="U$230" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="47.5996" smashed="yes" rot="MR0"/>
+<element name="U$227" library="DataLines" package="SPI1" value="" x="98.806" y="33.02" smashed="yes" rot="MR0"/>
+<element name="U$228" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="47.5996" smashed="yes" rot="MR0"/>
 <element name="JP24" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="90.17" y="45.466" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="46.609" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="90.17" y="44.323" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$231" library="CS and SI" package="CS0" value="" x="94.9452" y="45.4152" smashed="yes" rot="MR0"/>
-<element name="U$232" library="CS and SI" package="SI1" value="" x="88.9" y="45.3898" smashed="yes" rot="MR0"/>
+<element name="U$229" library="CS and SI" package="CS0" value="" x="94.9452" y="45.4152" smashed="yes" rot="MR0"/>
+<element name="U$230" library="CS and SI" package="SI1" value="" x="88.9" y="45.3898" smashed="yes" rot="MR0"/>
+<element name="U$231" library="buzzard_labels" package="INT0" value="" x="87.8586" y="30.7594" smashed="yes" rot="R270"/>
+<element name="U$232" library="buzzard_labels" package="INT0" value="" x="87.8586" y="30.7594" smashed="yes" rot="MR270"/>
 <element name="R65" library="SparkFun-Resistors" package="0603" value="10k" x="14.2494" y="59.3598" smashed="yes">
 <attribute name="NAME" x="14.2494" y="60.1218" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="14.2494" y="59.3598" size="1.778" layer="27" display="off"/>
@@ -6045,16 +6055,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$253" library="Labels" package="SCK-(]-03" value="" x="15.2908" y="56.8706" smashed="yes" rot="MR270"/>
 <element name="U$254" library="Labels" package="MISO-(]-03" value="" x="17.78" y="57.4548" smashed="yes" rot="MR270"/>
 <element name="U$255" library="Labels" package="MOSI-(]-03" value="" x="20.3708" y="57.4802" smashed="yes" rot="MR270"/>
-<element name="U$256" library="INT" package="#INT0" value="" x="10.1854" y="57.3278" smashed="yes" rot="R270"/>
-<element name="U$257" library="INT" package="#INT0" value="" x="10.1854" y="57.3278" smashed="yes" rot="MR270"/>
-<element name="U$258" library="DataLines" package="SPI1" value="" x="21.082" y="58.928" smashed="yes" rot="MR0"/>
-<element name="U$259" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="73.5076" smashed="yes" rot="MR0"/>
+<element name="U$256" library="DataLines" package="SPI1" value="" x="21.082" y="58.928" smashed="yes" rot="MR0"/>
+<element name="U$257" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="73.5076" smashed="yes" rot="MR0"/>
 <element name="JP27" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="12.446" y="71.374" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.446" y="72.517" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="12.446" y="70.231" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$260" library="CS and SI" package="CS0" value="" x="17.2212" y="71.3232" smashed="yes" rot="MR0"/>
-<element name="U$261" library="CS and SI" package="SI1" value="" x="11.176" y="71.2978" smashed="yes" rot="MR0"/>
+<element name="U$258" library="CS and SI" package="CS0" value="" x="17.2212" y="71.3232" smashed="yes" rot="MR0"/>
+<element name="U$259" library="CS and SI" package="SI1" value="" x="11.176" y="71.2978" smashed="yes" rot="MR0"/>
+<element name="U$260" library="buzzard_labels" package="INT0" value="" x="10.1346" y="56.6674" smashed="yes" rot="R270"/>
+<element name="U$261" library="buzzard_labels" package="INT0" value="" x="10.1346" y="56.6674" smashed="yes" rot="MR270"/>
 <element name="R73" library="SparkFun-Resistors" package="0603" value="10k" x="40.1574" y="59.3598" smashed="yes">
 <attribute name="NAME" x="40.1574" y="60.1218" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="40.1574" y="59.3598" size="1.778" layer="27" display="off"/>
@@ -6182,16 +6192,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$282" library="Labels" package="SCK-(]-03" value="" x="41.1988" y="56.8706" smashed="yes" rot="MR270"/>
 <element name="U$283" library="Labels" package="MISO-(]-03" value="" x="43.688" y="57.4548" smashed="yes" rot="MR270"/>
 <element name="U$284" library="Labels" package="MOSI-(]-03" value="" x="46.2788" y="57.4802" smashed="yes" rot="MR270"/>
-<element name="U$285" library="INT" package="#INT0" value="" x="36.0934" y="57.3278" smashed="yes" rot="R270"/>
-<element name="U$286" library="INT" package="#INT0" value="" x="36.0934" y="57.3278" smashed="yes" rot="MR270"/>
-<element name="U$287" library="DataLines" package="SPI1" value="" x="46.99" y="58.928" smashed="yes" rot="MR0"/>
-<element name="U$288" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="73.5076" smashed="yes" rot="MR0"/>
+<element name="U$285" library="DataLines" package="SPI1" value="" x="46.99" y="58.928" smashed="yes" rot="MR0"/>
+<element name="U$286" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="73.5076" smashed="yes" rot="MR0"/>
 <element name="JP30" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="38.354" y="71.374" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.354" y="72.517" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="38.354" y="70.231" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$289" library="CS and SI" package="CS0" value="" x="43.1292" y="71.3232" smashed="yes" rot="MR0"/>
-<element name="U$290" library="CS and SI" package="SI1" value="" x="37.084" y="71.2978" smashed="yes" rot="MR0"/>
+<element name="U$287" library="CS and SI" package="CS0" value="" x="43.1292" y="71.3232" smashed="yes" rot="MR0"/>
+<element name="U$288" library="CS and SI" package="SI1" value="" x="37.084" y="71.2978" smashed="yes" rot="MR0"/>
+<element name="U$289" library="buzzard_labels" package="INT0" value="" x="36.0426" y="56.6674" smashed="yes" rot="R270"/>
+<element name="U$290" library="buzzard_labels" package="INT0" value="" x="36.0426" y="56.6674" smashed="yes" rot="MR270"/>
 <element name="R81" library="SparkFun-Resistors" package="0603" value="10k" x="66.0654" y="59.3598" smashed="yes">
 <attribute name="NAME" x="66.0654" y="60.1218" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="66.0654" y="59.3598" size="1.778" layer="27" display="off"/>
@@ -6319,16 +6329,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$311" library="Labels" package="SCK-(]-03" value="" x="67.1068" y="56.8706" smashed="yes" rot="MR270"/>
 <element name="U$312" library="Labels" package="MISO-(]-03" value="" x="69.596" y="57.4548" smashed="yes" rot="MR270"/>
 <element name="U$313" library="Labels" package="MOSI-(]-03" value="" x="72.1868" y="57.4802" smashed="yes" rot="MR270"/>
-<element name="U$314" library="INT" package="#INT0" value="" x="62.0014" y="57.3278" smashed="yes" rot="R270"/>
-<element name="U$315" library="INT" package="#INT0" value="" x="62.0014" y="57.3278" smashed="yes" rot="MR270"/>
-<element name="U$316" library="DataLines" package="SPI1" value="" x="72.898" y="58.928" smashed="yes" rot="MR0"/>
-<element name="U$317" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="73.5076" smashed="yes" rot="MR0"/>
+<element name="U$314" library="DataLines" package="SPI1" value="" x="72.898" y="58.928" smashed="yes" rot="MR0"/>
+<element name="U$315" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="73.5076" smashed="yes" rot="MR0"/>
 <element name="JP33" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="64.262" y="71.374" smashed="yes" rot="MR0">
 <attribute name="NAME" x="64.262" y="72.517" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="64.262" y="70.231" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$318" library="CS and SI" package="CS0" value="" x="69.0372" y="71.3232" smashed="yes" rot="MR0"/>
-<element name="U$319" library="CS and SI" package="SI1" value="" x="62.992" y="71.2978" smashed="yes" rot="MR0"/>
+<element name="U$316" library="CS and SI" package="CS0" value="" x="69.0372" y="71.3232" smashed="yes" rot="MR0"/>
+<element name="U$317" library="CS and SI" package="SI1" value="" x="62.992" y="71.2978" smashed="yes" rot="MR0"/>
+<element name="U$318" library="buzzard_labels" package="INT0" value="" x="61.9506" y="56.6674" smashed="yes" rot="R270"/>
+<element name="U$319" library="buzzard_labels" package="INT0" value="" x="61.9506" y="56.6674" smashed="yes" rot="MR270"/>
 <element name="R89" library="SparkFun-Resistors" package="0603" value="10k" x="91.9734" y="59.3598" smashed="yes">
 <attribute name="NAME" x="91.9734" y="60.1218" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="91.9734" y="59.3598" size="1.778" layer="27" display="off"/>
@@ -6456,16 +6466,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$340" library="Labels" package="SCK-(]-03" value="" x="93.0148" y="56.8706" smashed="yes" rot="MR270"/>
 <element name="U$341" library="Labels" package="MISO-(]-03" value="" x="95.504" y="57.4548" smashed="yes" rot="MR270"/>
 <element name="U$342" library="Labels" package="MOSI-(]-03" value="" x="98.0948" y="57.4802" smashed="yes" rot="MR270"/>
-<element name="U$343" library="INT" package="#INT0" value="" x="87.9094" y="57.3278" smashed="yes" rot="R270"/>
-<element name="U$344" library="INT" package="#INT0" value="" x="87.9094" y="57.3278" smashed="yes" rot="MR270"/>
-<element name="U$345" library="DataLines" package="SPI1" value="" x="98.806" y="58.928" smashed="yes" rot="MR0"/>
-<element name="U$346" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="73.5076" smashed="yes" rot="MR0"/>
+<element name="U$343" library="DataLines" package="SPI1" value="" x="98.806" y="58.928" smashed="yes" rot="MR0"/>
+<element name="U$344" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="73.5076" smashed="yes" rot="MR0"/>
 <element name="JP36" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="90.17" y="71.374" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="72.517" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="90.17" y="70.231" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$347" library="CS and SI" package="CS0" value="" x="94.9452" y="71.3232" smashed="yes" rot="MR0"/>
-<element name="U$348" library="CS and SI" package="SI1" value="" x="88.9" y="71.2978" smashed="yes" rot="MR0"/>
+<element name="U$345" library="CS and SI" package="CS0" value="" x="94.9452" y="71.3232" smashed="yes" rot="MR0"/>
+<element name="U$346" library="CS and SI" package="SI1" value="" x="88.9" y="71.2978" smashed="yes" rot="MR0"/>
+<element name="U$347" library="buzzard_labels" package="INT0" value="" x="87.8586" y="56.6674" smashed="yes" rot="R270"/>
+<element name="U$348" library="buzzard_labels" package="INT0" value="" x="87.8586" y="56.6674" smashed="yes" rot="MR270"/>
 <element name="R97" library="SparkFun-Resistors" package="0603" value="10k" x="14.2494" y="85.2678" smashed="yes">
 <attribute name="NAME" x="14.2494" y="86.0298" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="14.2494" y="85.2678" size="1.778" layer="27" display="off"/>
@@ -6593,16 +6603,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$369" library="Labels" package="SCK-(]-03" value="" x="15.2908" y="82.7786" smashed="yes" rot="MR270"/>
 <element name="U$370" library="Labels" package="MISO-(]-03" value="" x="17.78" y="83.3628" smashed="yes" rot="MR270"/>
 <element name="U$371" library="Labels" package="MOSI-(]-03" value="" x="20.3708" y="83.3882" smashed="yes" rot="MR270"/>
-<element name="U$372" library="INT" package="#INT0" value="" x="10.1854" y="83.2358" smashed="yes" rot="R270"/>
-<element name="U$373" library="INT" package="#INT0" value="" x="10.1854" y="83.2358" smashed="yes" rot="MR270"/>
-<element name="U$374" library="DataLines" package="SPI1" value="" x="21.082" y="84.836" smashed="yes" rot="MR0"/>
-<element name="U$375" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="99.4156" smashed="yes" rot="MR0"/>
+<element name="U$372" library="DataLines" package="SPI1" value="" x="21.082" y="84.836" smashed="yes" rot="MR0"/>
+<element name="U$373" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="99.4156" smashed="yes" rot="MR0"/>
 <element name="JP39" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="12.446" y="97.282" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.446" y="98.425" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="12.446" y="96.139" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$376" library="CS and SI" package="CS0" value="" x="17.2212" y="97.2312" smashed="yes" rot="MR0"/>
-<element name="U$377" library="CS and SI" package="SI1" value="" x="11.176" y="97.2058" smashed="yes" rot="MR0"/>
+<element name="U$374" library="CS and SI" package="CS0" value="" x="17.2212" y="97.2312" smashed="yes" rot="MR0"/>
+<element name="U$375" library="CS and SI" package="SI1" value="" x="11.176" y="97.2058" smashed="yes" rot="MR0"/>
+<element name="U$376" library="buzzard_labels" package="INT0" value="" x="10.1346" y="82.5754" smashed="yes" rot="R270"/>
+<element name="U$377" library="buzzard_labels" package="INT0" value="" x="10.1346" y="82.5754" smashed="yes" rot="MR270"/>
 <element name="R105" library="SparkFun-Resistors" package="0603" value="10k" x="40.1574" y="85.2678" smashed="yes">
 <attribute name="NAME" x="40.1574" y="86.0298" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="40.1574" y="85.2678" size="1.778" layer="27" display="off"/>
@@ -6730,16 +6740,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$398" library="Labels" package="SCK-(]-03" value="" x="41.1988" y="82.7786" smashed="yes" rot="MR270"/>
 <element name="U$399" library="Labels" package="MISO-(]-03" value="" x="43.688" y="83.3628" smashed="yes" rot="MR270"/>
 <element name="U$400" library="Labels" package="MOSI-(]-03" value="" x="46.2788" y="83.3882" smashed="yes" rot="MR270"/>
-<element name="U$401" library="INT" package="#INT0" value="" x="36.0934" y="83.2358" smashed="yes" rot="R270"/>
-<element name="U$402" library="INT" package="#INT0" value="" x="36.0934" y="83.2358" smashed="yes" rot="MR270"/>
-<element name="U$403" library="DataLines" package="SPI1" value="" x="46.99" y="84.836" smashed="yes" rot="MR0"/>
-<element name="U$404" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="99.4156" smashed="yes" rot="MR0"/>
+<element name="U$401" library="DataLines" package="SPI1" value="" x="46.99" y="84.836" smashed="yes" rot="MR0"/>
+<element name="U$402" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="99.4156" smashed="yes" rot="MR0"/>
 <element name="JP42" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="38.354" y="97.282" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.354" y="98.425" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="38.354" y="96.139" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$405" library="CS and SI" package="CS0" value="" x="43.1292" y="97.2312" smashed="yes" rot="MR0"/>
-<element name="U$406" library="CS and SI" package="SI1" value="" x="37.084" y="97.2058" smashed="yes" rot="MR0"/>
+<element name="U$403" library="CS and SI" package="CS0" value="" x="43.1292" y="97.2312" smashed="yes" rot="MR0"/>
+<element name="U$404" library="CS and SI" package="SI1" value="" x="37.084" y="97.2058" smashed="yes" rot="MR0"/>
+<element name="U$405" library="buzzard_labels" package="INT0" value="" x="36.0426" y="82.5754" smashed="yes" rot="R270"/>
+<element name="U$406" library="buzzard_labels" package="INT0" value="" x="36.0426" y="82.5754" smashed="yes" rot="MR270"/>
 <element name="R113" library="SparkFun-Resistors" package="0603" value="10k" x="66.0654" y="85.2678" smashed="yes">
 <attribute name="NAME" x="66.0654" y="86.0298" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="66.0654" y="85.2678" size="1.778" layer="27" display="off"/>
@@ -6867,16 +6877,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$427" library="Labels" package="SCK-(]-03" value="" x="67.1068" y="82.7786" smashed="yes" rot="MR270"/>
 <element name="U$428" library="Labels" package="MISO-(]-03" value="" x="69.596" y="83.3628" smashed="yes" rot="MR270"/>
 <element name="U$429" library="Labels" package="MOSI-(]-03" value="" x="72.1868" y="83.3882" smashed="yes" rot="MR270"/>
-<element name="U$430" library="INT" package="#INT0" value="" x="62.0014" y="83.2358" smashed="yes" rot="R270"/>
-<element name="U$431" library="INT" package="#INT0" value="" x="62.0014" y="83.2358" smashed="yes" rot="MR270"/>
-<element name="U$432" library="DataLines" package="SPI1" value="" x="72.898" y="84.836" smashed="yes" rot="MR0"/>
-<element name="U$433" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="99.4156" smashed="yes" rot="MR0"/>
+<element name="U$430" library="DataLines" package="SPI1" value="" x="72.898" y="84.836" smashed="yes" rot="MR0"/>
+<element name="U$431" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="99.4156" smashed="yes" rot="MR0"/>
 <element name="JP45" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="64.262" y="97.282" smashed="yes" rot="MR0">
 <attribute name="NAME" x="64.262" y="98.425" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="64.262" y="96.139" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$434" library="CS and SI" package="CS0" value="" x="69.0372" y="97.2312" smashed="yes" rot="MR0"/>
-<element name="U$435" library="CS and SI" package="SI1" value="" x="62.992" y="97.2058" smashed="yes" rot="MR0"/>
+<element name="U$432" library="CS and SI" package="CS0" value="" x="69.0372" y="97.2312" smashed="yes" rot="MR0"/>
+<element name="U$433" library="CS and SI" package="SI1" value="" x="62.992" y="97.2058" smashed="yes" rot="MR0"/>
+<element name="U$434" library="buzzard_labels" package="INT0" value="" x="61.9506" y="82.5754" smashed="yes" rot="R270"/>
+<element name="U$435" library="buzzard_labels" package="INT0" value="" x="61.9506" y="82.5754" smashed="yes" rot="MR270"/>
 <element name="R121" library="SparkFun-Resistors" package="0603" value="10k" x="91.9734" y="85.2678" smashed="yes">
 <attribute name="NAME" x="91.9734" y="86.0298" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="91.9734" y="85.2678" size="1.778" layer="27" display="off"/>
@@ -7004,16 +7014,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$456" library="Labels" package="SCK-(]-03" value="" x="93.0148" y="82.7786" smashed="yes" rot="MR270"/>
 <element name="U$457" library="Labels" package="MISO-(]-03" value="" x="95.504" y="83.3628" smashed="yes" rot="MR270"/>
 <element name="U$458" library="Labels" package="MOSI-(]-03" value="" x="98.0948" y="83.3882" smashed="yes" rot="MR270"/>
-<element name="U$459" library="INT" package="#INT0" value="" x="87.9094" y="83.2358" smashed="yes" rot="R270"/>
-<element name="U$460" library="INT" package="#INT0" value="" x="87.9094" y="83.2358" smashed="yes" rot="MR270"/>
-<element name="U$461" library="DataLines" package="SPI1" value="" x="98.806" y="84.836" smashed="yes" rot="MR0"/>
-<element name="U$462" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="99.4156" smashed="yes" rot="MR0"/>
+<element name="U$459" library="DataLines" package="SPI1" value="" x="98.806" y="84.836" smashed="yes" rot="MR0"/>
+<element name="U$460" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="99.4156" smashed="yes" rot="MR0"/>
 <element name="JP48" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="90.17" y="97.282" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="98.425" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="90.17" y="96.139" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$463" library="CS and SI" package="CS0" value="" x="94.9452" y="97.2312" smashed="yes" rot="MR0"/>
-<element name="U$464" library="CS and SI" package="SI1" value="" x="88.9" y="97.2058" smashed="yes" rot="MR0"/>
+<element name="U$461" library="CS and SI" package="CS0" value="" x="94.9452" y="97.2312" smashed="yes" rot="MR0"/>
+<element name="U$462" library="CS and SI" package="SI1" value="" x="88.9" y="97.2058" smashed="yes" rot="MR0"/>
+<element name="U$463" library="buzzard_labels" package="INT0" value="" x="87.8586" y="82.5754" smashed="yes" rot="R270"/>
+<element name="U$464" library="buzzard_labels" package="INT0" value="" x="87.8586" y="82.5754" smashed="yes" rot="MR270"/>
 <element name="R129" library="SparkFun-Resistors" package="0603" value="10k" x="14.2494" y="111.1758" smashed="yes">
 <attribute name="NAME" x="14.2494" y="111.9378" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="14.2494" y="111.1758" size="1.778" layer="27" display="off"/>
@@ -7141,16 +7151,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$485" library="Labels" package="SCK-(]-03" value="" x="15.2908" y="108.6866" smashed="yes" rot="MR270"/>
 <element name="U$486" library="Labels" package="MISO-(]-03" value="" x="17.78" y="109.2708" smashed="yes" rot="MR270"/>
 <element name="U$487" library="Labels" package="MOSI-(]-03" value="" x="20.3708" y="109.2962" smashed="yes" rot="MR270"/>
-<element name="U$488" library="INT" package="#INT0" value="" x="10.1854" y="109.1438" smashed="yes" rot="R270"/>
-<element name="U$489" library="INT" package="#INT0" value="" x="10.1854" y="109.1438" smashed="yes" rot="MR270"/>
-<element name="U$490" library="DataLines" package="SPI1" value="" x="21.082" y="110.744" smashed="yes" rot="MR0"/>
-<element name="U$491" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="125.3236" smashed="yes" rot="MR0"/>
+<element name="U$488" library="DataLines" package="SPI1" value="" x="21.082" y="110.744" smashed="yes" rot="MR0"/>
+<element name="U$489" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="125.3236" smashed="yes" rot="MR0"/>
 <element name="JP51" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="12.446" y="123.19" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.446" y="124.333" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="12.446" y="122.047" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$492" library="CS and SI" package="CS0" value="" x="17.2212" y="123.1392" smashed="yes" rot="MR0"/>
-<element name="U$493" library="CS and SI" package="SI1" value="" x="11.176" y="123.1138" smashed="yes" rot="MR0"/>
+<element name="U$490" library="CS and SI" package="CS0" value="" x="17.2212" y="123.1392" smashed="yes" rot="MR0"/>
+<element name="U$491" library="CS and SI" package="SI1" value="" x="11.176" y="123.1138" smashed="yes" rot="MR0"/>
+<element name="U$492" library="buzzard_labels" package="INT0" value="" x="10.1346" y="108.4834" smashed="yes" rot="R270"/>
+<element name="U$493" library="buzzard_labels" package="INT0" value="" x="10.1346" y="108.4834" smashed="yes" rot="MR270"/>
 <element name="R137" library="SparkFun-Resistors" package="0603" value="10k" x="40.1574" y="111.1758" smashed="yes">
 <attribute name="NAME" x="40.1574" y="111.9378" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="40.1574" y="111.1758" size="1.778" layer="27" display="off"/>
@@ -7278,16 +7288,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$514" library="Labels" package="SCK-(]-03" value="" x="41.1988" y="108.6866" smashed="yes" rot="MR270"/>
 <element name="U$515" library="Labels" package="MISO-(]-03" value="" x="43.688" y="109.2708" smashed="yes" rot="MR270"/>
 <element name="U$516" library="Labels" package="MOSI-(]-03" value="" x="46.2788" y="109.2962" smashed="yes" rot="MR270"/>
-<element name="U$517" library="INT" package="#INT0" value="" x="36.0934" y="109.1438" smashed="yes" rot="R270"/>
-<element name="U$518" library="INT" package="#INT0" value="" x="36.0934" y="109.1438" smashed="yes" rot="MR270"/>
-<element name="U$519" library="DataLines" package="SPI1" value="" x="46.99" y="110.744" smashed="yes" rot="MR0"/>
-<element name="U$520" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="125.3236" smashed="yes" rot="MR0"/>
+<element name="U$517" library="DataLines" package="SPI1" value="" x="46.99" y="110.744" smashed="yes" rot="MR0"/>
+<element name="U$518" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="125.3236" smashed="yes" rot="MR0"/>
 <element name="JP54" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="38.354" y="123.19" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.354" y="124.333" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="38.354" y="122.047" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$521" library="CS and SI" package="CS0" value="" x="43.1292" y="123.1392" smashed="yes" rot="MR0"/>
-<element name="U$522" library="CS and SI" package="SI1" value="" x="37.084" y="123.1138" smashed="yes" rot="MR0"/>
+<element name="U$519" library="CS and SI" package="CS0" value="" x="43.1292" y="123.1392" smashed="yes" rot="MR0"/>
+<element name="U$520" library="CS and SI" package="SI1" value="" x="37.084" y="123.1138" smashed="yes" rot="MR0"/>
+<element name="U$521" library="buzzard_labels" package="INT0" value="" x="36.0426" y="108.4834" smashed="yes" rot="R270"/>
+<element name="U$522" library="buzzard_labels" package="INT0" value="" x="36.0426" y="108.4834" smashed="yes" rot="MR270"/>
 <element name="R145" library="SparkFun-Resistors" package="0603" value="10k" x="66.0654" y="111.1758" smashed="yes">
 <attribute name="NAME" x="66.0654" y="111.9378" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="66.0654" y="111.1758" size="1.778" layer="27" display="off"/>
@@ -7415,16 +7425,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$543" library="Labels" package="SCK-(]-03" value="" x="67.1068" y="108.6866" smashed="yes" rot="MR270"/>
 <element name="U$544" library="Labels" package="MISO-(]-03" value="" x="69.596" y="109.2708" smashed="yes" rot="MR270"/>
 <element name="U$545" library="Labels" package="MOSI-(]-03" value="" x="72.1868" y="109.2962" smashed="yes" rot="MR270"/>
-<element name="U$546" library="INT" package="#INT0" value="" x="62.0014" y="109.1438" smashed="yes" rot="R270"/>
-<element name="U$547" library="INT" package="#INT0" value="" x="62.0014" y="109.1438" smashed="yes" rot="MR270"/>
-<element name="U$548" library="DataLines" package="SPI1" value="" x="72.898" y="110.744" smashed="yes" rot="MR0"/>
-<element name="U$549" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="125.3236" smashed="yes" rot="MR0"/>
+<element name="U$546" library="DataLines" package="SPI1" value="" x="72.898" y="110.744" smashed="yes" rot="MR0"/>
+<element name="U$547" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="125.3236" smashed="yes" rot="MR0"/>
 <element name="JP57" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="64.262" y="123.19" smashed="yes" rot="MR0">
 <attribute name="NAME" x="64.262" y="124.333" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="64.262" y="122.047" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$550" library="CS and SI" package="CS0" value="" x="69.0372" y="123.1392" smashed="yes" rot="MR0"/>
-<element name="U$551" library="CS and SI" package="SI1" value="" x="62.992" y="123.1138" smashed="yes" rot="MR0"/>
+<element name="U$548" library="CS and SI" package="CS0" value="" x="69.0372" y="123.1392" smashed="yes" rot="MR0"/>
+<element name="U$549" library="CS and SI" package="SI1" value="" x="62.992" y="123.1138" smashed="yes" rot="MR0"/>
+<element name="U$550" library="buzzard_labels" package="INT0" value="" x="61.9506" y="108.4834" smashed="yes" rot="R270"/>
+<element name="U$551" library="buzzard_labels" package="INT0" value="" x="61.9506" y="108.4834" smashed="yes" rot="MR270"/>
 <element name="R153" library="SparkFun-Resistors" package="0603" value="10k" x="91.9734" y="111.1758" smashed="yes">
 <attribute name="NAME" x="91.9734" y="111.9378" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="91.9734" y="111.1758" size="1.778" layer="27" display="off"/>
@@ -7552,16 +7562,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$572" library="Labels" package="SCK-(]-03" value="" x="93.0148" y="108.6866" smashed="yes" rot="MR270"/>
 <element name="U$573" library="Labels" package="MISO-(]-03" value="" x="95.504" y="109.2708" smashed="yes" rot="MR270"/>
 <element name="U$574" library="Labels" package="MOSI-(]-03" value="" x="98.0948" y="109.2962" smashed="yes" rot="MR270"/>
-<element name="U$575" library="INT" package="#INT0" value="" x="87.9094" y="109.1438" smashed="yes" rot="R270"/>
-<element name="U$576" library="INT" package="#INT0" value="" x="87.9094" y="109.1438" smashed="yes" rot="MR270"/>
-<element name="U$577" library="DataLines" package="SPI1" value="" x="98.806" y="110.744" smashed="yes" rot="MR0"/>
-<element name="U$578" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="125.3236" smashed="yes" rot="MR0"/>
+<element name="U$575" library="DataLines" package="SPI1" value="" x="98.806" y="110.744" smashed="yes" rot="MR0"/>
+<element name="U$576" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="125.3236" smashed="yes" rot="MR0"/>
 <element name="JP60" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="90.17" y="123.19" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="124.333" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="90.17" y="122.047" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$579" library="CS and SI" package="CS0" value="" x="94.9452" y="123.1392" smashed="yes" rot="MR0"/>
-<element name="U$580" library="CS and SI" package="SI1" value="" x="88.9" y="123.1138" smashed="yes" rot="MR0"/>
+<element name="U$577" library="CS and SI" package="CS0" value="" x="94.9452" y="123.1392" smashed="yes" rot="MR0"/>
+<element name="U$578" library="CS and SI" package="SI1" value="" x="88.9" y="123.1138" smashed="yes" rot="MR0"/>
+<element name="U$579" library="buzzard_labels" package="INT0" value="" x="87.8586" y="108.4834" smashed="yes" rot="R270"/>
+<element name="U$580" library="buzzard_labels" package="INT0" value="" x="87.8586" y="108.4834" smashed="yes" rot="MR270"/>
 <element name="R161" library="SparkFun-Resistors" package="0603" value="10k" x="14.2494" y="137.0838" smashed="yes">
 <attribute name="NAME" x="14.2494" y="137.8458" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="14.2494" y="137.0838" size="1.778" layer="27" display="off"/>
@@ -7689,16 +7699,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$601" library="Labels" package="SCK-(]-03" value="" x="15.2908" y="134.5946" smashed="yes" rot="MR270"/>
 <element name="U$602" library="Labels" package="MISO-(]-03" value="" x="17.78" y="135.1788" smashed="yes" rot="MR270"/>
 <element name="U$603" library="Labels" package="MOSI-(]-03" value="" x="20.3708" y="135.2042" smashed="yes" rot="MR270"/>
-<element name="U$604" library="INT" package="#INT0" value="" x="10.1854" y="135.0518" smashed="yes" rot="R270"/>
-<element name="U$605" library="INT" package="#INT0" value="" x="10.1854" y="135.0518" smashed="yes" rot="MR270"/>
-<element name="U$606" library="DataLines" package="SPI1" value="" x="21.082" y="136.652" smashed="yes" rot="MR0"/>
-<element name="U$607" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="151.2316" smashed="yes" rot="MR0"/>
+<element name="U$604" library="DataLines" package="SPI1" value="" x="21.082" y="136.652" smashed="yes" rot="MR0"/>
+<element name="U$605" library="i2c_EN" package="I#C_EN0" value="" x="15.367" y="151.2316" smashed="yes" rot="MR0"/>
 <element name="JP63" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="12.446" y="149.098" smashed="yes" rot="MR0">
 <attribute name="NAME" x="12.446" y="150.241" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="12.446" y="147.955" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$608" library="CS and SI" package="CS0" value="" x="17.2212" y="149.0472" smashed="yes" rot="MR0"/>
-<element name="U$609" library="CS and SI" package="SI1" value="" x="11.176" y="149.0218" smashed="yes" rot="MR0"/>
+<element name="U$606" library="CS and SI" package="CS0" value="" x="17.2212" y="149.0472" smashed="yes" rot="MR0"/>
+<element name="U$607" library="CS and SI" package="SI1" value="" x="11.176" y="149.0218" smashed="yes" rot="MR0"/>
+<element name="U$608" library="buzzard_labels" package="INT0" value="" x="10.1346" y="134.3914" smashed="yes" rot="R270"/>
+<element name="U$609" library="buzzard_labels" package="INT0" value="" x="10.1346" y="134.3914" smashed="yes" rot="MR270"/>
 <element name="R169" library="SparkFun-Resistors" package="0603" value="10k" x="40.1574" y="137.0838" smashed="yes">
 <attribute name="NAME" x="40.1574" y="137.8458" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="40.1574" y="137.0838" size="1.778" layer="27" display="off"/>
@@ -7826,16 +7836,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$630" library="Labels" package="SCK-(]-03" value="" x="41.1988" y="134.5946" smashed="yes" rot="MR270"/>
 <element name="U$631" library="Labels" package="MISO-(]-03" value="" x="43.688" y="135.1788" smashed="yes" rot="MR270"/>
 <element name="U$632" library="Labels" package="MOSI-(]-03" value="" x="46.2788" y="135.2042" smashed="yes" rot="MR270"/>
-<element name="U$633" library="INT" package="#INT0" value="" x="36.0934" y="135.0518" smashed="yes" rot="R270"/>
-<element name="U$634" library="INT" package="#INT0" value="" x="36.0934" y="135.0518" smashed="yes" rot="MR270"/>
-<element name="U$635" library="DataLines" package="SPI1" value="" x="46.99" y="136.652" smashed="yes" rot="MR0"/>
-<element name="U$636" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="151.2316" smashed="yes" rot="MR0"/>
+<element name="U$633" library="DataLines" package="SPI1" value="" x="46.99" y="136.652" smashed="yes" rot="MR0"/>
+<element name="U$634" library="i2c_EN" package="I#C_EN0" value="" x="41.275" y="151.2316" smashed="yes" rot="MR0"/>
 <element name="JP66" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="38.354" y="149.098" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.354" y="150.241" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="38.354" y="147.955" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$637" library="CS and SI" package="CS0" value="" x="43.1292" y="149.0472" smashed="yes" rot="MR0"/>
-<element name="U$638" library="CS and SI" package="SI1" value="" x="37.084" y="149.0218" smashed="yes" rot="MR0"/>
+<element name="U$635" library="CS and SI" package="CS0" value="" x="43.1292" y="149.0472" smashed="yes" rot="MR0"/>
+<element name="U$636" library="CS and SI" package="SI1" value="" x="37.084" y="149.0218" smashed="yes" rot="MR0"/>
+<element name="U$637" library="buzzard_labels" package="INT0" value="" x="36.0426" y="134.3914" smashed="yes" rot="R270"/>
+<element name="U$638" library="buzzard_labels" package="INT0" value="" x="36.0426" y="134.3914" smashed="yes" rot="MR270"/>
 <element name="R177" library="SparkFun-Resistors" package="0603" value="10k" x="66.0654" y="137.0838" smashed="yes">
 <attribute name="NAME" x="66.0654" y="137.8458" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="66.0654" y="137.0838" size="1.778" layer="27" display="off"/>
@@ -7963,16 +7973,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$659" library="Labels" package="SCK-(]-03" value="" x="67.1068" y="134.5946" smashed="yes" rot="MR270"/>
 <element name="U$660" library="Labels" package="MISO-(]-03" value="" x="69.596" y="135.1788" smashed="yes" rot="MR270"/>
 <element name="U$661" library="Labels" package="MOSI-(]-03" value="" x="72.1868" y="135.2042" smashed="yes" rot="MR270"/>
-<element name="U$662" library="INT" package="#INT0" value="" x="62.0014" y="135.0518" smashed="yes" rot="R270"/>
-<element name="U$663" library="INT" package="#INT0" value="" x="62.0014" y="135.0518" smashed="yes" rot="MR270"/>
-<element name="U$664" library="DataLines" package="SPI1" value="" x="72.898" y="136.652" smashed="yes" rot="MR0"/>
-<element name="U$665" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="151.2316" smashed="yes" rot="MR0"/>
+<element name="U$662" library="DataLines" package="SPI1" value="" x="72.898" y="136.652" smashed="yes" rot="MR0"/>
+<element name="U$663" library="i2c_EN" package="I#C_EN0" value="" x="67.183" y="151.2316" smashed="yes" rot="MR0"/>
 <element name="JP69" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="64.262" y="149.098" smashed="yes" rot="MR0">
 <attribute name="NAME" x="64.262" y="150.241" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="64.262" y="147.955" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$666" library="CS and SI" package="CS0" value="" x="69.0372" y="149.0472" smashed="yes" rot="MR0"/>
-<element name="U$667" library="CS and SI" package="SI1" value="" x="62.992" y="149.0218" smashed="yes" rot="MR0"/>
+<element name="U$664" library="CS and SI" package="CS0" value="" x="69.0372" y="149.0472" smashed="yes" rot="MR0"/>
+<element name="U$665" library="CS and SI" package="SI1" value="" x="62.992" y="149.0218" smashed="yes" rot="MR0"/>
+<element name="U$666" library="buzzard_labels" package="INT0" value="" x="61.9506" y="134.3914" smashed="yes" rot="R270"/>
+<element name="U$667" library="buzzard_labels" package="INT0" value="" x="61.9506" y="134.3914" smashed="yes" rot="MR270"/>
 <element name="R185" library="SparkFun-Resistors" package="0603" value="10k" x="91.9734" y="137.0838" smashed="yes">
 <attribute name="NAME" x="91.9734" y="137.8458" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-00824" x="91.9734" y="137.0838" size="1.778" layer="27" display="off"/>
@@ -8100,16 +8110,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$688" library="Labels" package="SCK-(]-03" value="" x="93.0148" y="134.5946" smashed="yes" rot="MR270"/>
 <element name="U$689" library="Labels" package="MISO-(]-03" value="" x="95.504" y="135.1788" smashed="yes" rot="MR270"/>
 <element name="U$690" library="Labels" package="MOSI-(]-03" value="" x="98.0948" y="135.2042" smashed="yes" rot="MR270"/>
-<element name="U$691" library="INT" package="#INT0" value="" x="87.9094" y="135.0518" smashed="yes" rot="R270"/>
-<element name="U$692" library="INT" package="#INT0" value="" x="87.9094" y="135.0518" smashed="yes" rot="MR270"/>
-<element name="U$693" library="DataLines" package="SPI1" value="" x="98.806" y="136.652" smashed="yes" rot="MR0"/>
-<element name="U$694" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="151.2316" smashed="yes" rot="MR0"/>
+<element name="U$691" library="DataLines" package="SPI1" value="" x="98.806" y="136.652" smashed="yes" rot="MR0"/>
+<element name="U$692" library="i2c_EN" package="I#C_EN0" value="" x="93.091" y="151.2316" smashed="yes" rot="MR0"/>
 <element name="JP72" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="I2C_EN" x="90.17" y="149.098" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="150.241" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="90.17" y="147.955" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="U$695" library="CS and SI" package="CS0" value="" x="94.9452" y="149.0472" smashed="yes" rot="MR0"/>
-<element name="U$696" library="CS and SI" package="SI1" value="" x="88.9" y="149.0218" smashed="yes" rot="MR0"/>
+<element name="U$693" library="CS and SI" package="CS0" value="" x="94.9452" y="149.0472" smashed="yes" rot="MR0"/>
+<element name="U$694" library="CS and SI" package="SI1" value="" x="88.9" y="149.0218" smashed="yes" rot="MR0"/>
+<element name="U$695" library="buzzard_labels" package="INT0" value="" x="87.8586" y="134.3914" smashed="yes" rot="R270"/>
+<element name="U$696" library="buzzard_labels" package="INT0" value="" x="87.8586" y="134.3914" smashed="yes" rot="MR270"/>
 <element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="6.858" y="157.0355" smashed="yes"/>
 <element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="96.266" y="157.0355" smashed="yes"/>
 <element name="E$3" library="SparkFun-Retired" package="FIDUCIAL-1.5X3" value="" x="6.858" y="-2.0955" smashed="yes"/>
