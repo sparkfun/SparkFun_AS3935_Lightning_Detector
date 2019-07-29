@@ -20,7 +20,7 @@ Documentation
 --------------
 * **[Installing an Arduino Library](https://learn.sparkfun.com/tutorials/installing-an-arduino-library/)** - Basic instructions on installing an Arduino library
 * **[Library](https://github.com/sparkfun/SparkFun_AS3935_Lightning_Detector_Arduino_Library)** - Arduino library for the AS3935 Lightning Detector
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-as3935-lightning-detector-hookup-guide)** - Hookup Guide for the SparkFun AS3935 Lightning Detector
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-as3935-lightning-detector-hookup-guide-v20)** - Hookup Guide for the SparkFun AS3935 Lightning Detector
 
 Product Versions
 --------------
